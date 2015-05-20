@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/PlayerRoot"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+<!-- RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res/com.psa.android.media"
+        android:id="@+id/PlayerRoot"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" -->
+
+	<!-- style="@style/adView_style" -->
+	<!-- com.admob.android.ads.AdView
+		android:id="@+id/ad"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		app:backgroundColor="#000000"
+		app:textColor="#FFFFFF"
+		app:keywords="Android Application"
+		app:isGoneWithoutAd="true"
+		app:refreshInterval="60"
+		/-->
+	
+	<LinearLayout
+        android:id="@+id/AdLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" />
+
+	<FrameLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/AdLayout"
+		android:layout_alignParentBottom="true"
+		>
+
+		<com.psa.android.media.player.PlayerLayout
+			android:id="@+id/PlayerLayout"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			>
+
+			<SurfaceView
+				android:id="@+id/PlayerSurface"
+				android:layout_width="320dip"
+				android:layout_height="240dip"
+				android:clickable="true"
+				/>
+
+		</com.psa.android.media.player.PlayerLayout>
+
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<TextView
+				android:id="@+id/PlayerTitle"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:paddingTop="4dip"
+				android:paddingBottom="4dip"
+				android:paddingLeft="8dip"
+				android:textColor="#C0C0C0"
+				android:background="#80404040"
+				android:text="Player"
+				android:textStyle="bold"
+				android:scrollHorizontally="true"
+				/>
+
+			<TableLayout
+				android:id="@+id/DownloadInfoContainer"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:gravity="center"
+				android:visibility="invisible"
+				android:stretchColumns="0,3">
+
+				<TableRow>
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_column="0"/>
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:text="@string/player_file_name"
+						android:layout_column="1"/>
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:gravity="left"
+						android:layout_height="wrap_content"
+						android:id="@+id/DownloadingFileName"
+						android:layout_column="2"/>
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_column="3"/>
+
+				</TableRow>
+
+				<TableRow>
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_column="0"/>
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:text="@string/player_file_size"
+						android:layout_column="1"/>
+					<TextView
+						android:layout_width="fill_parent"
+						android:gravity="left"
+						android:layout_height="wrap_content"
+						android:id="@+id/DownloadingFileSize"
+						android:layout_column="2"/>
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_column="3"/>
+
+				</TableRow>
+
+				<TableRow>
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_column="0"/>
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:text="@string/player_downloaded"
+						android:layout_column="1"/>
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:gravity="left"
+						android:layout_height="wrap_content"
+						android:id="@+id/DownloadedSize"
+						android:layout_column="2"/>
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_column="3"/>
+
+				</TableRow>
+
+				<TableRow>
+					<TextView
+						android:layout_width="fill_parent"
+						android:gravity="center_horizontal"
+						android:paddingTop="10dip"
+						android:layout_height="wrap_content"
+						android:text="@string/DownloadingNotes"
+						android:id="@+id/DownloadingNotes"
+						android:layout_column="0"
+						android:layout_span="4"/>
+
+				</TableRow>
+
+				</TableLayout>
+
+
+
+				<!--  -->
+
+			<LinearLayout
+				android:id="@+id/PlayerControls"
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:background="#80404040"
+				>
+
+				<RelativeLayout
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					>
+
+					<TextView
+					    android:id="@+id/PlayerCurrentTime"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentLeft="true"
+						android:textStyle="bold"
+						android:text="0:00"
+						android:gravity="center"
+						/>
+
+					<TextView
+					    android:id="@+id/PlayerTotalTime"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentRight="true"
+						android:textStyle="bold"
+						android:gravity="center"
+						android:text="0:00"/>
+
+					<SeekBar
+						android:id="@+id/PlayerSeekbar"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_toLeftOf="@id/PlayerTotalTime"
+						android:layout_toRightOf="@id/PlayerCurrentTime"
+						android:paddingLeft="8dip"
+						android:paddingRight="8dip"
+						/>
+
+				</RelativeLayout>
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:paddingTop="4dip"
+					android:gravity="center"
+					>
+
+					<ImageButton
+						android:id="@+id/PlayerToStart"
+						style="@style/media_player_control_button"
+						android:src="@drawable/to_start"
+						/>
+
+					<ImageButton
+						android:id="@+id/PlayerRewind"
+						style="@style/media_player_control_button"
+						android:src="@drawable/rewind"
+						/>
+
+					<ImageButton
+						android:id="@+id/PlayerPlay"
+						style="@style/media_player_control_button"
+						android:src="@drawable/play"
+						/>
+
+					<ImageButton
+						android:id="@+id/PlayerForward"
+						style="@style/media_player_control_button"
+						android:src="@drawable/forward"
+						/>
+
+					<ImageButton
+						android:id="@+id/PlayerAspectRatio"
+						style="@style/media_player_control_button"
+						android:src="@drawable/icon_ar_default"
+						/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+	</FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/media_player_root"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#000000">
+
+<!-- RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res/com.psa.android.media"
+        android:id="@+id/media_player_root"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000" -->
+
+	<TextView
+		android:id="@+id/media_player_title"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="4dip"
+		android:paddingBottom="4dip"
+		android:paddingLeft="8dip"
+		android:drawableBottom="#404040"
+		android:textColor="#C0C0C0"
+		android:text="Player"
+		android:textStyle="bold"
+		android:scrollHorizontally="true"
+		/>
+	<!--
+		android:drawableBottom="#404040"
+		android:drawableBottom="?android:drawable/title_bar"
+	 -->
+
+	<LinearLayout
+		android:id="@+id/media_player_buttons"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		>
+
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			>
+
+			<TextView
+			    android:id="@+id/media_player_current_time"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentLeft="true"
+				android:textStyle="bold"
+				android:text="0:00"
+				android:gravity="center"
+				/>
+
+			<TextView
+			    android:id="@+id/media_player_total_time"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:textStyle="bold"
+				android:gravity="center"
+				android:text="0:00"/>
+
+			<SeekBar
+				android:id="@+id/media_player_seekbar"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_toLeftOf="@id/media_player_total_time"
+				android:layout_toRightOf="@id/media_player_current_time"
+				android:paddingLeft="8dip"
+				android:paddingRight="8dip"
+				/>
+
+		</RelativeLayout>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="4dip"
+			android:gravity="center"
+			>
+
+			<!-- android:src="@drawable/to_start" -->
+			<ImageButton
+				android:id="@+id/media_player_to_start"
+				style="@style/media_player_control_button"
+				android:src="@drawable/to_start"
+				/>
+
+			<!-- android:src="@drawable/backward" -->
+			<ImageButton
+				android:id="@+id/media_player_backward"
+				style="@style/media_player_control_button"
+				android:src="@drawable/rewind"
+				/>
+
+			<!-- android:src="@drawable/play" -->
+			<ImageButton
+				android:id="@+id/media_player_play"
+				style="@style/media_player_control_button"
+				android:src="@drawable/play"
+				/>
+
+			<!-- android:src="@drawable/forward" -->
+			<ImageButton
+				android:id="@+id/media_player_forward"
+				style="@style/media_player_control_button"
+				android:src="@drawable/forward"
+				/>
+
+			<!--ImageButton
+				android:src="@drawable/to_end"
+				style="@style/media_player_control_button"
+				android:id="@+id/media_player_to_end"
+				/-->
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<AbsoluteLayout
+		android:id="@+id/media_player_surface_container"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#000000">
+
+		<RelativeLayout
+			android:layout_alignParentTop="true"
+			android:layout_below="@id/media_player_title"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_above="@id/media_player_buttons">
+
+			<SurfaceView
+				android:id="@+id/media_player_surface"
+				android:layout_width="320dip"
+				android:layout_height="240dip"
+				android:clickable="true"
+				android:visibility="visible"/>
+
+			<TableLayout
+				android:id="@+id/DownloadInfoContainer"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:layout_marginBottom="10dip"
+				android:visibility="invisible">
+
+				<TableRow>
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:text="@string/player_file_name"
+						android:layout_column="0"/>
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:gravity="left"
+						android:layout_height="wrap_content"
+						android:id="@+id/DownloadingFileName"
+						android:layout_column="1"/>
+				</TableRow>
+
+				<TableRow>
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:text="@string/player_file_size"
+						android:layout_column="0"/>
+					<TextView
+						android:layout_width="fill_parent"
+						android:gravity="left"
+						android:layout_height="wrap_content"
+						android:id="@+id/DownloadingFileSize"
+						android:layout_column="1"/>
+				</TableRow>
+
+				<TableRow>
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:gravity="left"
+						android:text="@string/player_downloaded"
+						android:layout_column="0"/>
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:gravity="left"
+						android:layout_height="wrap_content"
+						android:id="@+id/DownloadedSize"
+						android:layout_column="1"/>
+
+				</TableRow>
+
+			</TableLayout>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:gravity="center_horizontal"
+				android:layout_height="wrap_content"
+				android:text="@string/DownloadingNotes"
+				android:id="@+id/DownloadingNotes"
+				android:layout_below="@id/DownloadInfoContainer"
+				android:visibility="invisible"/>
+
+		</RelativeLayout>
+
+	</AbsoluteLayout>
+
+</RelativeLayout>

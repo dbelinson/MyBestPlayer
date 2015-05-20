@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id = "@+id/root_jpeg_layout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+<!-- RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res/com.psa.android.media"
+        android:id = "@+id/root_jpeg_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" -->
+
+	<TextView
+		android:id="@+id/header"
+		android:layout_alignParentTop="true"
+		android:background="#828282"
+		android:textColor="#ffffff"
+		android:layout_width="fill_parent"
+		android:textStyle="bold"
+		android:shadowDx="0"
+		android:shadowDy="0"
+		android:shadowRadius="2"
+		android:shadowColor="#000000"
+		android:layout_height="28dip"
+		android:paddingLeft="5dip"
+		android:maxLines="1"
+		android:ellipsize="end"
+		android:text="Sierra, Nevada"
+		android:gravity="center_vertical|left"/>
+
+	<LinearLayout
+		android:id="@+id/jpeg_view_buttons_panel"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:padding="4dip"
+		android:gravity="center"
+		android:orientation="vertical"
+		>
+
+		<Button
+			android:id="@+id/jpeg_view_refresh_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="24dip"
+			android:paddingRight="24dip"
+			android:paddingTop="8dip"
+			android:paddingBottom="8dip"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="@string/refresh_button" />
+
+	</LinearLayout>
+
+
+	<FrameLayout
+		android:layout_width="fill_parent"
+		android:layout_below="@id/header"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/jpeg_view_buttons_panel">
+
+   <!--
+   <RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+    -->
+
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:id="@+id/jpeg_camera_view"
+		android:clickable="true"
+		android:focusableInTouchMode="true"/>
+
+	<!--
+	<ZoomControls
+			android:id="@+id/zoomControl"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+	</RelativeLayout>
+	-->
+
+	</FrameLayout>
+
+	<!--
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@id/jpeg_view_buttons_panel"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/header">
+
+		<ZoomImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/jpeg_camera_view"
+			android:clickable="true"
+			android:scaleType="matrix"/>
+
+		<ZoomControls
+			android:id="@+id/zoomControl"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+	</RelativeLayout>
+	-->
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/StreamMediaPlayer/app/src/pro/res/layout/jpeg_camera.xml -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:initialLayout="@layout/webcam_widget_layout"
+	android:configure="com.simpity.android.media.widgets.camera.CameraWidgetConfiguration"
+	android:updatePeriodMillis="0"
+	android:minWidth="147dp"
+	android:minHeight="72dp">
+</appwidget-provider>

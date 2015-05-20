@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:gravity="center_vertical"
+	android:padding="16dip"
+	>
+	
+	<ProgressBar 
+		android:id="@+id/WaitProgressBar"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		/>
+		
+	<LinearLayout
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="16dip"
+		android:orientation="vertical"
+		>
+		
+		<TextView
+			android:id="@+id/WaitText"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			/>
+	
+		<TextView
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="4dip"
+			android:text="@string/please_wait"
+			/>
+	
+	</LinearLayout>
+		
+</LinearLayout>
+<!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/StreamMediaPlayer/app/src/pro/res/layout/wait_dialog2.xml -->

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+<!-- RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res/com.psa.android.media"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" -->
+
+	<!-- com.admob.android.ads.AdView
+		android:id="@+id/ad"
+		style="@style/adView_style"
+		android:layout_marginTop="3dip"
+		/-->
+
+	<LinearLayout
+        android:id="@+id/AdLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/adView_style"
+		android:layout_marginTop="3dip"
+        android:orientation="horizontal" />
+
+	<!-- com.admob.android.ads.AdView
+		android:id="@+id/ad"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_marginTop="3dip"
+		app:backgroundColor="#000000"
+		app:textColor="#FFFFFF"
+		app:keywords="Android Application"
+		app:testing="false"
+		app:isGoneWithoutAd="false"
+		app:refreshInterval="30" /-->
+
+	<ImageView
+		android:id="@+id/psa_logo"
+		android:layout_above="@id/AdLayout"
+		style="@style/bottom_psa_logo"/>
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@id/AdLayout"
+		android:layout_alignParentTop="true"
+		>
+
+		<LinearLayout style="@style/main_layout">
+
+			<RelativeLayout
+				android:id="@+id/rtsp_video_button"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent" >
+
+				<Button
+					android:id="@+id/rtsp_video_shape"
+					style="@style/main_button_shape" />
+
+				<LinearLayout
+					style="@style/main_button_linear_lh" >
+
+					<ImageView
+						android:src="@drawable/icon_video"
+						style="@style/main_button_icon" />
+
+					<TextView
+						style="@style/main_button_title"
+						android:text="@string/internet_stream_media" />
+
+				</LinearLayout>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:id="@+id/radio_button"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent" >
+
+				<Button
+					android:id="@+id/radio_shape"
+					style="@style/main_button_shape"/>
+
+				<LinearLayout
+					style="@style/main_button_linear_lh">
+
+					<ImageView
+						android:src="@drawable/icon_radio"
+						style="@style/main_button_icon"/>
+
+					<TextView
+						style="@style/main_button_title"
+						android:text="@string/radio"/>
+
+				</LinearLayout>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:id="@+id/jpeg_camera_button"
+				style="@style/main_button_layout" >
+
+				<Button
+					android:id="@+id/jpeg_camera_shape"
+					style="@style/main_button_shape" />
+
+				<LinearLayout
+					style="@style/main_button_linear_lh">
+
+					<ImageView
+						android:src="@drawable/icon_jpeg"
+						style="@style/main_button_icon" />
+
+					<TextView
+						style="@style/main_button_title"
+						android:text="@string/jpeg_web_camera" />
+
+				</LinearLayout>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:id="@+id/mjpeg_camera_button"
+				style="@style/main_button_layout">
+
+				<Button
+					android:id="@+id/mjpeg_camera_shape"
+					style="@style/main_button_shape" />
+
+				<LinearLayout
+					style="@style/main_button_linear_lh">
+
+					<ImageView
+						android:src="@drawable/icon_mjpeg"
+						style="@style/main_button_icon" />
+
+					<TextView
+						style="@style/main_button_title"
+						android:text="@string/mjpeg_rtp_camera" />
+
+				</LinearLayout>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:id="@+id/local_video_button"
+				style="@style/main_button_layout">
+
+				<Button
+					android:id="@+id/local_video_shape"
+					style="@style/main_button_shape" />
+
+				<LinearLayout
+					style="@style/main_button_linear_lh">
+
+					<ImageView
+						android:src="@drawable/icon_folder"
+						style="@style/main_button_icon" />
+
+					<TextView
+						style="@style/main_button_title"
+						android:text="@string/local_media_files" />
+
+				</LinearLayout>
+
+			</RelativeLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</RelativeLayout>

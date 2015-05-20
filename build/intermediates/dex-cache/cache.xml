@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\dbelinson\AndroidStudioProjects\StreamMediaPlayer\app\libs\com.psa.android.additional.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2b27a705acc7edae3fe76cae7df253e797795894">
+        <dex dex="C:\Users\dbelinson\AndroidStudioProjects\StreamMediaPlayer\app\build\intermediates\pre-dexed\pro\debug\com.psa.android.additional-31c84f1ef5cd96164050d3c7a0c74dc10d8f189d.jar" />
+    </item>
+    <item
+        jar="C:\Users\dbelinson\AndroidStudioProjects\StreamMediaPlayer\app\libs\com.psa.android.protocol.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6435d4395cd776bb5fad8ee370704f9d0640a0e7">
+        <dex dex="C:\Users\dbelinson\AndroidStudioProjects\StreamMediaPlayer\app\build\intermediates\pre-dexed\pro\debug\com.psa.android.protocol-80c13114600c6cbf4dee4a73d71fca4ff1234b75.jar" />
+    </item>
+
+</items>

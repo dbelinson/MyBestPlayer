@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+	 xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:layout_width="fill_parent"
+	 android:layout_height="fill_parent">
+
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:orientation="vertical">
+	  
+	   <EditText
+	    android:id="@+id/camera_widget_url"
+	    android:hint="@string/url"
+	   	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"/>
+	  	
+	  	<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:paddingTop="8dip"
+			android:paddingBottom="8dip">
+	
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/refresh"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:paddingRight="16dip"/>
+	
+				<Spinner
+					android:id="@+id/jpeg_refresh_spinner"
+					android:layout_marginLeft="16dip"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:entries="@array/camera_refresh_time_entries"/>
+	
+	   </LinearLayout>
+	   
+	   <CheckBox
+	   		android:id="@+id/enableSecurity" 
+	   		android:checked="false"
+	   		android:text="@string/enable_security"
+	   		android:layout_width="fill_parent"
+	   		android:layout_height="wrap_content"
+	   		android:paddingTop="8dip"
+			android:paddingBottom="8dip"/>
+	   		
+	   	<LinearLayout 
+	   		android:layout_width="fill_parent"
+	   		android:layout_height="wrap_content"
+	   		android:id="@+id/securitySection"
+	   		android:visibility="gone"
+	   		android:orientation="vertical"
+	   		android:paddingTop="8dip"
+			android:paddingBottom="8dip">
+	   		
+	   		<EditText
+	   			android:id="@+id/Username" 
+	   			android:hint="@string/Username"
+	   			android:layout_width="fill_parent"
+	   			android:layout_height="wrap_content"
+	   			android:inputType="textShortMessage"/>
+	   			
+	   		<EditText
+	   			android:id="@+id/Password" 
+	   			android:hint="@string/Password"
+	   			android:layout_width="fill_parent"
+	   			android:layout_height="wrap_content"
+	   			android:inputType="textPassword"/>	
+	   	
+	   	</LinearLayout>	
+	  	
+	   <Button
+	  	android:id="@+id/start_button"
+	  	android:text="@string/start"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"/>
+		 
+	</LinearLayout>
+
+</ScrollView><!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/StreamMediaPlayer/app/src/pro/res/layout/webcam_widget_configure.xml -->

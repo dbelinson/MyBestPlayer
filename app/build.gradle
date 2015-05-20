@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.simpity.android.media"
+        minSdkVersion 3
+        targetSdkVersion 3
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('../psakey.keystore')
+            storePassword "psasmp"
+            //storePassword System.console().readLine("\nKeystore password: ")
+            keyAlias 'psauser'
+            keyPassword "psasmp"
+            //keyPassword System.console().readLine("\nKey password: ")
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            debuggable false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    productFlavors {
+        x3 {
+            applicationId "com.simpity.android.media"
+        }
+
+        pro {
+            applicationId "com.simpity.android.pro.media"
+
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/com.simpity.android.additional.jar')
+    compile files('libs/com.simpity.android.protocol.jar')
+    x3Compile files('libs/GoogleAdMobAdsSdk-6.4.1.jar')
+}

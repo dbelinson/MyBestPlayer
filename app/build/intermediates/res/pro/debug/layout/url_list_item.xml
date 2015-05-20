@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingLeft="2dip">
+
+	<ImageView
+    	android:id="@+id/favoritesIconCalculator"
+    	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:src="@drawable/favorites_off"
+		android:paddingLeft="3dip"
+		android:paddingRight="4dip"
+		android:visibility="invisible"
+		android:clickable="false"
+		android:focusable="false"
+		android:focusableInTouchMode="false"/>
+
+	<LinearLayout
+		android:id="@+id/container"
+		android:orientation="vertical"
+		android:layout_toLeftOf="@id/favoritesIconCalculator"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_alignParentLeft="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<ImageView
+    			android:id="@+id/linkActionIcon"
+    			android:paddingTop="3dip"
+    			android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:src="@drawable/icon_marker_new"
+				android:visibility="gone"/>
+
+			<TextView
+				android:id="@+id/list_item_description"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:maxLines="3"
+				android:ellipsize="middle"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:paddingLeft="1dip"
+		        android:layout_marginRight="4dip"
+		        android:text=""/>
+
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/list_item_url"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxLines="2"
+			android:ellipsize="middle"
+	        android:text=""
+	        android:layout_marginRight="4dip"/>
+
+ 	</LinearLayout>
+
+    <ImageView
+    	android:id="@+id/favoritesIcon"
+    	android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:scaleType="centerInside"
+		android:layout_alignTop="@id/container"
+		android:layout_alignBottom="@id/container"
+		android:src="@drawable/favorites_off"
+		android:paddingLeft="3dip"
+		android:paddingRight="4dip"/>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/StreamMediaPlayer/app/src/pro/res/layout/url_list_item.xml -->

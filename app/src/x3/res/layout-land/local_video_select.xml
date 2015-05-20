@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+<!-- RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res/com.psa.android.media"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" -->
+
+	<LinearLayout
+	    android:id="@+id/LocalVideoCenter"
+	    android:layout_width="8dip"
+	    android:layout_height="2dip"
+	    android:layout_centerVertical="true"
+	    android:orientation="horizontal" />
+
+	<LinearLayout
+		android:id="@+id/LocalVideoGalleryTab"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true"
+		android:layout_below="@id/LocalVideoCenter"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:background="@drawable/tab_left_button_normal"
+		>
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/icon_video"
+			/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="1dip"
+			android:text="@string/gallery"
+			android:textColor="#000000"
+			/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/LocalVideoBrowserTab"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignRight="@id/LocalVideoGalleryTab"
+		android:layout_above="@id/LocalVideoCenter"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:background="@drawable/tab_left_button_normal"
+		>
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/icon_folder"
+			/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="1dip"
+			android:text="@string/files"
+			android:textColor="#000000"
+			/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="2dip"
+		android:layout_height="fill_parent"
+		android:layout_alignRight="@id/LocalVideoBrowserTab"
+		android:background="#FFFFFF"
+		/>
+
+	<!-- com.admob.android.ads.AdView
+   		android:id="@+id/ad"
+   		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/LocalVideoBrowserTab"
+		app:backgroundColor="#000000"
+		app:textColor="#FFFFFF"
+		app:keywords="Android Application"
+		app:testing="false"
+		app:refreshInterval="60"
+		app:isGoneWithoutAd="true"
+		/-->
+	
+	<LinearLayout
+        android:id="@+id/AdLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/LocalVideoBrowserTab"
+        android:orientation="horizontal" />
+
+	<FrameLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+		android:layout_toRightOf="@id/LocalVideoBrowserTab"
+		android:layout_below="@id/AdLayout"
+		android:layout_alignWithParentIfMissing="true"
+		android:layout_marginLeft="4dip"
+		>
+
+		<RelativeLayout
+			android:id="@+id/LocalVideoBrowserPage"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			>
+<!--
+			<CheckBox
+				android:id="@+id/LocalVideoShowAllFiles"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:checked="false"
+				android:text="@string/show_all_files"
+				/>
+
+			<ImageView
+				android:id="@+id/LocalVideoBrowserSeparator"
+				android:layout_width="fill_parent"
+				android:layout_height="5dip"
+				android:src="@drawable/main_button_shape"
+				android:layout_below="@id/LocalVideoShowAllFiles"
+				/>
+-->
+			<com.psa.android.media.controls.SdCardBrowser
+				android:id="@+id/LocalVideoBrowser"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_alignParentBottom="true"
+				/>
+
+		</RelativeLayout>
+
+		<ListView
+			android:id="@+id/LocalVideoGallery"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:choiceMode="singleChoice"
+			android:focusable="true"
+			android:focusableInTouchMode="true"/>
+
+	</FrameLayout>
+
+</RelativeLayout>

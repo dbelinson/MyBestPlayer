@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity = "center"
+	android:layout_gravity = "center">
+
+	<!--
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:textStyle="bold"
+		android:paddingLeft ="40dip"
+		android:paddingRight ="40dip"
+		android:paddingBottom ="10dip"
+		android:text="Set Width and Height" />
+	-->
+
+	<RadioGroup
+		android:id="@+id/radioGroup"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:scrollbars="vertical"
+		>
+
+		<RadioButton
+			android:id="@+id/none"
+			android:text="@string/video_ratio_original"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<RadioButton
+			android:id="@+id/four_to_tree"
+			android:text="4:3"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+
+		<RadioButton
+			android:id="@+id/five_to_four"
+			android:text="5:4"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+
+		<RadioButton
+			android:id="@+id/sixteen_to_nine"
+			android:text="16:9"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+
+	</RadioGroup>
+<!--
+	<SeekBar
+		android:id="@+id/widthSeekBar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:max="10"
+		android:minWidth="300dip"
+		android:progress="5"
+		android:padding="10dip"
+		/>
+
+	<SeekBar
+		android:id="@+id/heightSeekBar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:max="10"
+		android:minWidth="300dip"
+		android:progress="5"
+		android:padding="10dip"
+		/>
+ -->
+</LinearLayout>

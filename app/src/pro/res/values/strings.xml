@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stream Media Player Pro</string>
+
+    <string name="about">About</string>
+	<string name="help">Help</string>
+    <string name="start">Start</string>
+	<string name="rename">Rename</string>
+	<string name="search">Search</string>
+	<string name="clear">Clear</string>
+
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="updating_links">Updating links</string>
+    <string name="send_email_menu">Share</string>
+    <string name="email_chooser_title">Send Link using:</string>
+
+    <string name="xml_import">Import</string>
+    <string name="xml_browse">Browse</string>
+
+    <string name="jpeg_web_camera">JPEG Web Camera</string>
+    <string name="internet_stream_media">Internet Video</string>
+    <string name="local_media_files">Local media files</string>
+    <string name="jpeg_select_title">Select JPEG Web Camera</string>
+    <string name="mjpeg_rtp_camera">Motion-JPEG Web Camera</string>
+    <string name="jpeg_edit_title">JPEG Web Camera</string>
+    <string name="rtsp_select_title">Select stream video source</string>
+    <string name="rtsp_edit_title">Stream video source</string>
+    <string name="sdcard_select_title">Select media file</string>
+    <string name="description">Title</string>
+    <string name="url">Internet address</string>
+    <string name="rtp_server">RTP Server</string>
+    <string name="rtp_port">Port</string>
+    <string name="refresh">Refresh period</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="remove_question">Are you sure you want to remove \'%s\'?</string>
+    <string name="remove_question2" formatted="false">Are you sure you want to remove \'%s\' (%s)?</string>
+    <string name="test">Test</string>
+    <string name="error">Error</string>
+    <string name="open_media_error">Can`t open \'%s\'.</string>
+    <string name="invalid_url_error">Invalid url \'%s\'.</string>
+    <string name="read_error">Read error of \'%s\'.</string>
+    <string name="valid_link">The link is valid.</string>
+    <string name="invalid_link">The link is invalid.</string>
+    <string name="invalid_protocol">Invalid protocol. The address should begin with \'rtsp://\' or \'http://\'.</string>
+    <string name="invalid_rtp_port">Please enter valid port number (0 - 65535).</string>
+	<string name="phoneIPs">Phone IP Addresses:</string>
+	<string name="version">Version</string>
+	<string name="not_show_again">Do not show this dialog again</string>
+	<string name="share_link">Would you like to share this link?</string>
+	<string name="link_shared_msg">Link successfully shared</string>
+	<string name="link_share_error_msg">Error occurs. Link not shared</string>
+	<!--string name="link_share_path_to_script">http://www.psa-mobile.com/android/smp/posturl.php</string-->
+	<string name="whats_new_title">What\'s new</string>
+	<string name="radio">Internet Radio</string>
+	<string name="Unknown">Unknown</string>
+	<string name="DownloadMsg">This video can\'t be played directly from the server. Would you like to download it to SD card and play as a local media.</string>
+	<string name="DownloadingNotes">File will be placed to \'Download\' folder on SD card.</string>
+	<string name="graphics">Graphics</string>
+	<string name="favorites">Favorites</string>
+	<string name="history">History</string>
+	<string name="new_record">New</string>
+	<string name="files">Files</string>
+	<string name="gallery">Gallery</string>
+	<string name="reconnecting">Reconnecting…</string>
+	<string name="reconnect_delay" translatable="false">Reconnect delay…</string>
+	<string name="settings">Settings</string>
+
+	<string name="cant_connect_to_link">Sorry, couldn\'t connect to the specified link.</string>
+
+	<string name="pref_title">Stream Media Player Pro Preferences</string>
+
+	<string name="pref_share_link_category">Link Sharing Settings</string>
+	<string name="pref_is_show_share_link_dlg_title">Show Share Link Dialog</string>
+	<string name="pref_is_show_share_link_dlg_summary">Show share link dialog</string>
+	<string name="pref_is_auto_share_title">Share Link Automatically</string>
+	<string name="pref_is_auto_share_summary">Do not show share dialog and share link automatically</string>
+
+	<string name="pref_radio_category">Internet Radio Settings</string>
+	<string name="pref_radio_reconnect_on_disconnect_title">Reconnect</string>
+	<string name="pref_radio_reconnect_on_disconnect_summary">Automatically reconnect on connection lost</string>
+	<string name="pref_radio_reconnect_retries_title">Reconnect Retries</string>
+	<string name="pref_radio_reconnect_period_title">Retry Period</string>
+
+	<string name="pref_video_category">Internet Video Settings</string>
+	<string name="pref_video_landscape_default_ratio_title">Landscape Aspect Ratio</string>
+	<string name="pref_video_landscape_default_ratio_summary">Default aspect ratio in landscape orientation</string>
+	<string name="pref_video_portrait_default_ratio_title">Portrait Aspect Ratio</string>
+	<string name="pref_video_portrait_default_ratio_summary">Default aspect ratio in portrait orientation</string>
+
+	<string name="pref_links_list_options_category">Links Settings</string>
+	<string name="pref_links_list_click_action_title">Link Click Action</string>
+	<string name="pref_links_list_click_action_summary">Set action on link click</string>
+
+	<string name="allLinks">All Links</string>
+	<string name="pref_links_list_default_tab_title">Default Tab</string>
+	<string name="pref_links_list_default_tab_summary">Initial tab to view</string>
+	<string name="category">Category</string>
+	<string name="msg_remove_marked_link">During update links from server this link was marked as dead, please choose action to perform.</string>
+	<string name="try_connect">Try playback</string>
+	<string name="remove_this">Remove link</string>
+	<string name="remove_all_marked">Remove all marked</string>
+	<string name="msg_links_update_completed">Links database successfully updated</string>
+	<string name="new_links_description_text">NEW! links -</string>
+	<string name="na_links_description_text">DEAD links -</string>
+
+	<string name="pref_local_media_category">Local Media Files Settings</string>
+	<string name="pref_local_media_show_all_files_title">Show All Files</string>
+
+	<string name="pref_local_media_default_tab_title">Default Tab</string>
+	<string name="pref_local_media_default_tab_summary">Initial tab to view</string>
+	<string name="create_group">Create Child Group</string>
+
+	<string name="pref_links_list_use_sorting_title">Sort links list (a-z)</string>
+
+	<string name="msg_from_dev_title">A message from developers</string>
+	<string name="please_wait">Please wait...</string>
+	<string name="free_version_limitation_msg">Links in this category are available only in Stream Media Player Pro. Would you like to install this version?</string>
+	<string name="install">Install</string>
+	<string name="check_internet_connection">Please check your Internet connection first.</string>
+	<string name="check_links">Check links</string>
+	<string name="checking_links">Checking links</string>
+	<string name="checking_status_msg_fmt" formatted="false">Checking %d/%d</string>
+	<string name="pref_links_list_use_auto_checking_title">Auto check links</string>
+	<string name="pref_links_list_use_auto_checking_summary">Automatically check links availability after links update</string>
+
+	<string name="pref_backup_category">Backup</string>
+	<string name="pref_backup_schedule_title">Backup schedule</string>
+	<string name="pref_backup_schedule_summary">Schedule of links backup into storage (SD card)</string>
+
+	<string name="pref_backup_schedule_off">Off</string>
+	<string name="pref_backup_schedule_daily">Daily</string>
+	<string name="pref_backup_schedule_weekly">Weekly</string>
+	<string name="pref_backup_schedule_monthly">Monthly</string>
+
+	<string name="pref_backup_now">Backup links</string>
+	<string name="pref_backup_now_summary">Create links list restore point</string>
+	<string name="pref_backup_restore">Restore links</string>
+	<string name="pref_backup_restore_summary">Restore links list from backup</string>
+
+	<string name="last_backup">Last backup:</string>
+	<string name="restore_question">Are you sure you want to restore links database? Current links will be lost.</string>
+
+	<string name="always_start_download">Do not show this dialog again, always start download.</string>
+
+	<string name="sec_1">1 s</string>
+	<string name="sec_2">2 s</string>
+	<string name="sec_3">3 s</string>
+	<string name="sec_5">5 s</string>
+	<string name="sec_10">10 s</string>
+	<string name="sec_15">15 s</string>
+	<string name="sec_20">20 s</string>
+	<string name="sec_30">30 s</string>
+	<string name="min_1">1 m</string>
+	<string name="min_3">3 m</string>
+	<string name="min_5">5 m</string>
+
+	<string name="video_ratio_default">No default</string>
+	<string name="video_ratio_original">Original</string>
+
+	<string name="links_click_action_menu">Show context menu</string>
+	<string name="links_click_action_start">Start playback</string>
+
+	<string name="default_tab_all_links">All Links</string>
+	<string name="default_tab_favorites">Favorites</string>
+	<string name="default_tab_history">History</string>
+	<string name="default_tab_new">New</string>
+
+	<string name="default_media_tab_files">Files</string>
+	<string name="default_media_tab_gallery">Gallery</string>
+
+	<string name="player_file_name">File name:</string>
+	<string name="player_file_size">File size (bytes):</string>
+	<string name="player_downloaded">Downloaded (bytes):</string>
+	<string name="internet_radio_name">Internet Radio Name</string>
+	<string name="internet_radio_address">Internet Radio Address</string>
+	<string name="show_all_files">Show all files</string>
+	<string name="select_import_list">Select import list</string>
+	<string name="no_links">No links in storage</string>
+
+	<string name="genre">Genre:</string>
+	<string name="reconnect_refresh">Reconnect/Refresh</string>
+	<string name="content_type">Content-Type:</string>
+	<string name="radio_name">Name:</string>
+	<string name="provider_url">Provider URL:</string>
+
+	<string name="video_cant_be_played">Sorry, this video can\'t be played.</string>
+	<string name="video_connection_lost">Connection lost, reconnect?</string>
+
+	<string name="refresh_time_1">1 sec</string>
+	<string name="refresh_time_5">5 sec</string>
+	<string name="refresh_time_10">10 sec</string>
+	<string name="refresh_time_15">15 sec</string>
+	<string name="refresh_time_30">30 sec</string>
+	<string name="refresh_time_60">1 min</string>
+	<string name="refresh_time_600">10 min</string>
+	<string name="refresh_time_1800">30 min</string>
+	<string name="refresh_time_3600">1 hour</string>
+
+	<string name="buffering_time_20">20 sec</string>
+	<string name="buffering_time_45">45 sec</string>
+
+	<string name="jpeg_camera_refresh_description_fmt">(Refresh: %ds)</string>
+
+	<string name="composition">Composition:</string>
+	<string name="pref_radio_buffering_title">Buffering time</string>
+
+	<string name="enable_security">Enable security</string>
+	<string name="Password">Enter Password</string>
+	<string name="Username">Enter Username</string>
+
+	<string name="stations">Stations</string>
+	<string name="genres_item">Genres</string>
+	<string name="playlists">Playlists</string>
+
+	<string name="add_to_favorites">Add to Favorites</string>
+	<string name="remove_from_favorites">Remove from Favorites</string>
+	<string name="add_to_playlist">Add to playlist</string>
+	<string name="new_playlist">New playlist</string>
+
+	<string name="select_playlist">Select playlist</string>
+	<string name="playlist_name">Playlist name</string>
+	<string name="invalid_playlist_name">Invalid playlist name</string>
+
+	<string name="added_to_playlist" formatted="false">Station \"%s\" was added to playlist \"%s\"</string>
+	<string name="already_in_playlist" formatted="false">Station \"%s\" already present in playlist \"%s\"</string>
+	<string name="playlist_exists" formatted="false">Playlist \"%s\" already exists. Do you want to add \"%s\" to existing playlist?</string>
+	<string name="remove_from_playlist" formatted="false">Do you want to remove \"%s\" from playlist?</string>
+	<string name="empty_playlist">Playlist is empty</string>
+
+    <string name="move_up">Up</string>
+    <string name="move_down">Down</string>
+
+	<string name="playing">Playing</string>
+	<string name="stopped">Stopped</string>
+	<string name="starting">Starting</string>
+	<string name="buffering">Buffering...</string>
+	<string name="direct_link">Direct link</string>
+	<string name="msg_url_empty">Internet address is empty</string>
+	<string name="msg_enter_url">Enter Internet address</string>
+
+</resources>

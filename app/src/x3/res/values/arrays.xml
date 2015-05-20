@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="pref_reconnect_retries_values" translatable="false">
+		<item>2147483647</item>
+		<item>5</item>
+		<item>10</item>
+		<item>20</item>
+		<item>30</item>
+		<item>40</item>
+		<item>50</item>
+		<item>75</item>
+		<item>100</item>
+	</string-array>
+
+	<string-array name="pref_reconnect_retries_entries" translatable="false">
+		<item>Unlimited</item>
+		<item>5</item>
+		<item>10</item>
+		<item>20</item>
+		<item>30</item>
+		<item>40</item>
+		<item>50</item>
+		<item>75</item>
+		<item>100</item>
+	</string-array>
+
+	<string-array name="pref_reconnect_period_entries">
+		<item>@string/sec_1</item>
+		<item>@string/sec_2</item>
+		<item>@string/sec_3</item>
+		<item>@string/sec_5</item>
+		<item>@string/sec_10</item>
+		<item>@string/sec_15</item>
+		<item>@string/sec_20</item>
+		<item>@string/sec_30</item>
+		<item>@string/min_1</item>
+		<item>@string/min_3</item>
+		<item>@string/min_5</item>
+	</string-array>
+
+	<string-array name="pref_reconnect_period_values" translatable="false">
+		<item>1000</item>
+		<item>2000</item>
+		<item>3000</item>
+		<item>5000</item>
+		<item>10000</item>
+		<item>15000</item>
+		<item>20000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>180000</item>
+		<item>300000</item>
+	</string-array>
+
+	<string-array name="pref_video_ratio_entries" translatable="false">
+		<item>@string/video_ratio_default</item>
+		<item>@string/video_ratio_original</item>
+		<item>4:3</item>
+		<item>5:4</item>
+		<item>16:9</item>
+	</string-array>
+
+	<string-array name="pref_video_ratio_values" translatable="false">
+		<item>Keep</item>
+		<item>Original</item>
+		<item>FourToTree</item>
+		<item>FiveToFour</item>
+		<item>SixteenToNine</item>
+	</string-array>
+
+	<string-array name="pref_links_list_click_action_entries">
+		<item>@string/links_click_action_menu</item>
+		<item>@string/links_click_action_start</item>
+	</string-array>
+
+	<string-array name="pref_links_list_click_action_values" translatable="false">
+		<item>ShowMenu</item>
+		<item>StartContent</item>
+	</string-array>
+
+	<string-array name="pref_links_list_default_tab_entries">
+		<item>@string/default_tab_all_links</item>
+		<item>@string/default_tab_favorites</item>
+		<item>@string/default_tab_history</item>
+		<item>@string/default_tab_new</item>
+	</string-array>
+
+	<string-array name="pref_links_list_default_tab_values" translatable="false">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+
+	<string-array name="video_categories">
+		<item>@string/category_other</item>
+		<item>@string/category_anime</item>
+		<item>@string/category_cartoons</item>
+		<item>@string/category_crime</item>
+		<item>@string/category_fun</item>
+		<item>@string/category_movies</item>
+		<item>@string/category_oldie</item>
+		<item>@string/category_music</item>
+		<item>@string/category_news</item>
+		<item>@string/category_sports</item>
+		<item>@string/category_traffic</item>
+		<item>@string/category_travel</item>
+		<item>@string/category_tv</item>
+	</string-array>
+
+	<string-array name="pref_local_media_default_tab_entries">
+		<item>@string/default_media_tab_files</item>
+		<item>@string/default_media_tab_gallery</item>
+	</string-array>
+
+	<string-array name="pref_local_media_default_tab_values" translatable="false">
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+
+	<string-array name="pref_backup_schedule_entries">
+		<item>@string/pref_backup_schedule_off</item>
+		<item>@string/pref_backup_schedule_daily</item>
+		<item>@string/pref_backup_schedule_weekly</item>
+		<item>@string/pref_backup_schedule_monthly</item>
+	</string-array>
+
+	<string-array name="pref_backup_schedule_values" translatable="false">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+
+	<string-array name="camera_refresh_time_entries">
+		<item>@string/refresh_time_1</item>
+		<item>@string/refresh_time_5</item>
+		<item>@string/refresh_time_10</item>
+		<item>@string/refresh_time_15</item>
+		<item>@string/refresh_time_30</item>
+		<item>@string/refresh_time_60</item>
+		<item>@string/refresh_time_600</item>
+		<item>@string/refresh_time_1800</item>
+		<item>@string/refresh_time_3600</item>
+	</string-array>
+
+	<string-array name="camera_refresh_time_values" translatable="false">
+		<item>1</item>
+		<item>5</item>
+		<item>10</item>
+		<item>15</item>
+		<item>30</item>
+		<item>60</item>
+		<item>600</item>
+		<item>1800</item>
+		<item>3600</item>
+	</string-array>
+
+	<string-array name="pref_radio_buffering_entries">
+		<item>@string/refresh_time_1</item>
+		<item>@string/refresh_time_5</item>
+		<item>@string/refresh_time_10</item>
+		<item>@string/refresh_time_15</item>
+		<item>@string/buffering_time_20</item>
+		<item>@string/refresh_time_30</item>
+		<item>@string/buffering_time_45</item>
+		<item>@string/refresh_time_60</item>
+	</string-array>
+
+	<string-array name="pref_radio_buffering_values" translatable="false">
+		<item>1</item>
+		<item>5</item>
+		<item>10</item>
+		<item>15</item>
+		<item>20</item>
+		<item>30</item>
+		<item>45</item>
+		<item>60</item>
+	</string-array>
+
+</resources>

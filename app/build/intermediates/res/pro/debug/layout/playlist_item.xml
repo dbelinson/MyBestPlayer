@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<ImageView
+		android:id="@+id/PlaylistItemCheck"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:src="@drawable/icon_check"
+		android:layout_centerVertical="true"
+		/>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_toLeftOf="@id/PlaylistItemCheck"
+		android:layout_marginLeft="4dip"
+		android:orientation="vertical"
+		>
+	
+		<TextView
+			android:id="@+id/PlaylistItemText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="Text"
+			/>
+		
+		<TextView
+			android:id="@+id/PlaylistItemUrl"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="Url"
+			/>
+			
+	</LinearLayout>
+	    
+</RelativeLayout>
+<!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/StreamMediaPlayer/app/src/pro/res/layout/playlist_item.xml -->
