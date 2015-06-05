@@ -8,7 +8,7 @@
 
 <!-- RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res/com.psa.android.pro.media"
+        xmlns:app="http://schemas.android.com/apk/res/com.simpity.android.pro.media"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" -->
 
@@ -351,7 +351,7 @@
 				android:focusableInTouchMode="true"
 				android:paddingLeft="4dip"/>
 			<!--
-			<com.psa.android.media.controls.TreeView
+			<com.simpity.android.media.controls.TreeView
 				android:id="@+id/rtsp_all_links"
 				android:layout_width="fill_parent"
 				android:layout_height="fill_parent"

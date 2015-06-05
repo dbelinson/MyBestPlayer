@@ -297,7 +297,7 @@ public class UpdateService implements Runnable, ContentHandler {
 		HttpClient http_client = null;
 		StringBuilder request_builder = new StringBuilder();
 
-		request_builder.append("http://www.psa-mobile.com/android/smp/getposts.php?fromVer=");
+		request_builder.append("http://www.simpity-mobile.com/android/smp/getposts.php?fromVer=");
 		request_builder.append(getUpdateVersion());
 		request_builder.append("&ptype=*");
 

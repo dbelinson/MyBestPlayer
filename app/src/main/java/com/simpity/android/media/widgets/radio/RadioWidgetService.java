@@ -28,7 +28,7 @@ public class RadioWidgetService extends Service {
 
 	private final String TAG = "RadioWidgetService";
 	
-	public  final static String WIDGET_ACTIONS = "com.psa.android.media.widgets.radio.actions";
+	public  final static String WIDGET_ACTIONS = "com.simpity.android.media.widgets.radio.actions";
 	public  final static String ACTION_KEY = "ACTION";
 	
 	private final static String ACTION_START	= "ACTION_START";

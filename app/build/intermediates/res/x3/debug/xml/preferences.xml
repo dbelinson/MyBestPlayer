@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/pref_title"
+	android:key="pref_main_screen_key">
+
+	<PreferenceCategory
+		android:title="@string/about"
+		android:key="pref_about_category_screen_key">
+
+		<Preference
+			android:title="@string/version"
+			android:summary="@string/versionName"
+			android:enabled="false"
+			android:selectable="false"
+			android:shouldDisableView="true"/>
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:title="@string/pref_radio_category"
+		android:key="pref_radio_category_screen_key">
+
+		<ListPreference
+			android:dialogTitle="@string/pref_radio_buffering_title"
+			android:key="@string/pref_radio_buffering_key"
+			android:title="@string/pref_radio_buffering_title"
+			android:entries="@array/pref_radio_buffering_entries"
+			android:entryValues="@array/pref_radio_buffering_values"
+			android:defaultValue="10"/>
+
+		<CheckBoxPreference
+			android:key="@string/pref_radio_reconnect_on_disconnect_key"
+			android:title="@string/pref_radio_reconnect_on_disconnect_title"
+			android:summaryOn="@string/pref_radio_reconnect_on_disconnect_summary"
+			android:summaryOff="@string/pref_radio_reconnect_on_disconnect_summary"
+			android:disableDependentsState="false"
+			android:defaultValue="true"/>
+
+		<ListPreference
+			android:dialogTitle="@string/pref_radio_reconnect_retries_title"
+			android:key="@string/pref_radio_reconnect_retries_key"
+			android:title="@string/pref_radio_reconnect_retries_title"
+			android:dependency="@string/pref_radio_reconnect_on_disconnect_key"
+			android:entries="@array/pref_reconnect_retries_entries"
+			android:entryValues="@array/pref_reconnect_retries_values"
+			android:defaultValue="10"/>
+
+		<ListPreference
+			android:dialogTitle="@string/pref_radio_reconnect_period_title"
+			android:key="@string/pref_radio_reconnect_period_key"
+			android:title="@string/pref_radio_reconnect_period_title"
+			android:dependency="@string/pref_radio_reconnect_on_disconnect_key"
+			android:entries="@array/pref_reconnect_period_entries"
+			android:entryValues="@array/pref_reconnect_period_values"
+			android:defaultValue="5000"/>
+
+  	</PreferenceCategory>
+
+  	<PreferenceCategory
+		android:title="@string/pref_video_category"
+		android:key="pref_video_category_screen_key">
+
+		<ListPreference
+			android:dialogTitle="@string/pref_video_landscape_default_ratio_title"
+			android:key="@string/pref_video_landscape_default_ratio_key"
+			android:title="@string/pref_video_landscape_default_ratio_title"
+			android:summary="@string/pref_video_landscape_default_ratio_summary"
+			android:entries="@array/pref_video_ratio_entries"
+			android:entryValues="@array/pref_video_ratio_values"
+			android:defaultValue="Keep"/>
+
+		<ListPreference
+			android:dialogTitle="@string/pref_video_portrait_default_ratio_title"
+			android:key="@string/pref_video_portrait_default_ratio_key"
+			android:title="@string/pref_video_portrait_default_ratio_title"
+			android:summary="@string/pref_video_portrait_default_ratio_summary"
+			android:entries="@array/pref_video_ratio_entries"
+			android:entryValues="@array/pref_video_ratio_values"
+			android:defaultValue="Keep"/>
+
+  	</PreferenceCategory>
+
+  	<PreferenceCategory
+		android:title="@string/pref_links_list_options_category"
+		android:key="pref_links_list_options_category_screen_key">
+
+		<ListPreference
+			android:dialogTitle="@string/pref_links_list_click_action_title"
+			android:key="@string/pref_links_list_click_action_key"
+			android:title="@string/pref_links_list_click_action_title"
+			android:summary="@string/pref_links_list_click_action_summary"
+			android:entries="@array/pref_links_list_click_action_entries"
+			android:entryValues="@array/pref_links_list_click_action_values"
+			android:defaultValue="ShowMenu"/>
+
+		<ListPreference
+			android:dialogTitle="@string/pref_links_list_default_tab_title"
+			android:key="@string/pref_links_list_default_tab_key"
+			android:title="@string/pref_links_list_default_tab_title"
+			android:summary="@string/pref_links_list_default_tab_summary"
+			android:entries="@array/pref_links_list_default_tab_entries"
+			android:entryValues="@array/pref_links_list_default_tab_values"
+			android:defaultValue="0"/>
+
+		<CheckBoxPreference
+			android:key="@string/pref_links_list_use_sorting_key"
+			android:title="@string/pref_links_list_use_sorting_title"
+			android:defaultValue="true"/>
+
+		<!-- CheckBoxPreference
+			android:key="@string/pref_links_list_use_auto_checking_key"
+			android:title="@string/pref_links_list_use_auto_checking_title"
+			android:summary="@string/pref_links_list_use_auto_checking_summary"
+			android:defaultValue="true"/-->
+
+  	</PreferenceCategory>
+
+  	<PreferenceCategory
+		android:title="@string/pref_local_media_category"
+		android:key="pref_local_media_category_screen_key">
+
+		<CheckBoxPreference
+			android:key="@string/pref_local_media_show_all_files_key"
+			android:title="@string/pref_local_media_show_all_files_title"
+			android:defaultValue="false"/>
+
+		<ListPreference
+			android:dialogTitle="@string/pref_local_media_default_tab_title"
+			android:key="@string/pref_local_media_default_tab_key"
+			android:title="@string/pref_local_media_default_tab_title"
+			android:summary="@string/pref_local_media_default_tab_summary"
+			android:entries="@array/pref_local_media_default_tab_entries"
+			android:entryValues="@array/pref_local_media_default_tab_values"
+			android:defaultValue="2"/>
+
+  	</PreferenceCategory>
+
+  	<PreferenceCategory
+		android:title="@string/pref_share_link_category"
+		android:key="pref_share_link_category_screen_key">
+
+		<CheckBoxPreference
+			android:key="@string/pref_is_show_share_link_dlg_key"
+			android:title="@string/pref_is_show_share_link_dlg_title"
+			android:summary="@string/pref_is_show_share_link_dlg_summary"
+			android:disableDependentsState="true"
+			android:defaultValue="true"/>
+
+		<CheckBoxPreference
+			android:key="@string/pref_is_auto_share_key"
+			android:title="@string/pref_is_auto_share_title"
+			android:summary="@string/pref_is_auto_share_summary"
+			android:dependency="@string/pref_is_show_share_link_dlg_key"
+			android:defaultValue="false"/>
+
+  	</PreferenceCategory>
+
+  	<PreferenceCategory
+		android:title="@string/pref_backup_category"
+		android:key="pref_backup_category_key">
+
+		<ListPreference
+			android:dialogTitle="@string/pref_backup_schedule_title"
+			android:key="@string/pref_backup_schedule_key"
+			android:title="@string/pref_backup_schedule_title"
+			android:summary="@string/pref_backup_schedule_summary"
+			android:entries="@array/pref_backup_schedule_entries"
+			android:entryValues="@array/pref_backup_schedule_values"
+			android:defaultValue="0"/>
+
+		<Preference
+			android:key="@string/pref_backup_now_key"
+			android:title="@string/pref_backup_now"
+			android:summary="@string/pref_backup_now_summary"
+			android:enabled="true"
+			android:selectable="true"/>
+
+		<Preference
+			android:key="@string/pref_backup_restore_key"
+			android:title="@string/pref_backup_restore"
+			android:summary="@string/pref_backup_restore_summary"
+			android:enabled="true"
+			android:selectable="true"/>
+
+  	</PreferenceCategory>
+
+</PreferenceScreen>
+<!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/xml/preferences.xml -->

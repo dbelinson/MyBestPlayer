@@ -8,7 +8,7 @@
 	android:background="#000000">
 
 <!-- RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res/com.psa.android.media"
+        xmlns:app="http://schemas.android.com/apk/res/com.simpity.android.media"
         android:id="@+id/media_player_root"
         android:orientation="vertical"
         android:layout_width="fill_parent"

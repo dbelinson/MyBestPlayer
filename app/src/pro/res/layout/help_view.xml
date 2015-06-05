@@ -282,7 +282,7 @@
 							<TextView
 								android:layout_width="fill_parent"
 								android:layout_height="wrap_content"
-								android:text="http://market.android.com/search?q=pname:com.psa.android.slideshow"
+								android:text="http://market.android.com/search?q=pname:com.simpity.android.slideshow"
 								android:clickable="true"
 								android:autoLink="web" />
 

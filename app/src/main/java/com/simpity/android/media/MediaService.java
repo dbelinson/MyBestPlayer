@@ -16,7 +16,7 @@ import com.simpity.android.media.utils.Utilities;
 
 public class MediaService extends Service {
 
-	//public final static String ServiceIntent = "com.psa.android.media.service.BROADCAST";
+	public final static String ServiceIntent = "com.simpity.android.media.service.BROADCAST";
 
 	public final static String SEND_ACTION = "action";
 	public final static String SEND_DATA = "data";
@@ -49,8 +49,8 @@ public class MediaService extends Service {
 	public void onCreate() {
 		super.onCreate();
 
-		mUpdateService = new UpdateService(this);
-		mRadioService = new RadioService(this);
+		//mUpdateService = new UpdateService(this);
+		//mRadioService = new RadioService(this);
 		mTestLinksService = new TestLinksService(this);
 		mDebuggable = Utilities.isDebuggable(this);
 	}

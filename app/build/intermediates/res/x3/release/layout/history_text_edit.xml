@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<ImageButton
+		android:id="@+id/HistoryTextEditButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/drop_down"
+		android:layout_alignParentRight="true"
+		android:scaleType="center"
+		android:focusable="false"/>
+
+	<AutoCompleteTextView
+		android:id="@+id/HistoryTextEdit"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_toLeftOf="@id/HistoryTextEditButton"
+		android:scrollHorizontally="true"
+		android:fadingEdge="horizontal"
+		android:gravity="left"
+		android:ellipsize="start" 
+		android:inputType="text|textAutoComplete"
+		/>
+
+</RelativeLayout><!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/layout/history_text_edit.xml -->

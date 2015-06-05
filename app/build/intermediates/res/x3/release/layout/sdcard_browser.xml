@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+<!-- RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res/com.simpity.android.media"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" -->
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:id="@+id/LayoutforFilter"
+		android:paddingBottom="3dip"
+		>
+
+		<CheckBox
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:checked="false"
+			android:text="@string/show_all_files"
+			android:id="@+id/showAllFiles"
+			/>
+
+		<ImageView
+			android:layout_width = "fill_parent"
+			android:layout_height="5dip"
+			android:src = "@drawable/main_button_shape"
+			/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:orientation="vertical"
+		android:id="@+id/LayoutforAD"
+		android:paddingTop="3dip"
+		>
+
+		<ImageView
+			android:layout_width = "fill_parent"
+			android:layout_height="5dip"
+			android:src = "@drawable/main_button_shape"
+			/>
+
+		<!-- com.admob.android.ads.AdView
+			style="@style/adView_style"
+			android:layout_marginTop="1dip"
+			android:id="@+id/ad"
+			app:backgroundColor="#000000"
+			app:textColor="#FFFFFF"
+			app:keywords="Android Application"
+			app:testing="false"
+			app:isGoneWithoutAd="false"
+			app:refreshInterval="30" /-->
+		
+		<LinearLayout
+	        android:id="@+id/AdLayout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        style="@style/adView_style"
+			android:layout_marginTop="1dip"
+	        android:orientation="horizontal" />
+
+	</LinearLayout>
+
+	<com.simpity.android.media.controls.SdCardBrowser
+		android:id="@+id/sdcard_browser"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@id/LayoutforFilter"
+		android:layout_above="@id/LayoutforAD"
+		/>
+
+</RelativeLayout><!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/layout/sdcard_browser.xml -->

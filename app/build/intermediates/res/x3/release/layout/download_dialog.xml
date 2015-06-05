@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<TextView
+		android:id="@+id/DownloadMessage"
+		android:layout_width="fill_parent"
+		android:gravity="center_horizontal"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="@string/DownloadMsg"
+		android:layout_margin="10dip"/>
+
+	<CheckBox
+		android:id="@+id/DoNotShowDownloadQuestion"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:checked="false"
+		android:layout_margin="5dip"
+		android:text="@string/always_start_download"/>
+<!--
+	<TableLayout
+		android:id="@+id/DownloadingTableContainer"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="3dip"
+		android:paddingLeft="3dip"
+		android:paddingRight="3dip"
+		android:stretchColumns="0,1">
+
+		<TableRow>
+
+			<Button
+				android:layout_column="0"
+				android:text="@android:string/yes"
+				android:id="@+id/yesBtn"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"/>
+
+			<Button
+				android:layout_column="1"
+				android:text="@android:string/no"
+				android:id="@+id/noBtn"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"/>
+
+		</TableRow>
+
+	</TableLayout>
+-->
+
+
+</LinearLayout>
+<!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/layout/download_dialog.xml -->

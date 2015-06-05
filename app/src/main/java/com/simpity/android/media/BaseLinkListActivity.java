@@ -554,7 +554,7 @@ public abstract class BaseLinkListActivity extends FourTabActivity implements
 
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
-				startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.psa.android.pro.media")));
+				startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=.android.pro.media")));
 			}
 		});
 		

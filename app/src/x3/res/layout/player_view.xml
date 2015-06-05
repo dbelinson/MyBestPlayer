@@ -8,7 +8,7 @@
 
 <!-- RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res/com.psa.android.media"
+        xmlns:app="http://schemas.android.com/apk/res/com.simpity.android.media"
         android:id="@+id/PlayerRoot"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" -->
@@ -40,7 +40,7 @@
 		android:layout_alignParentBottom="true"
 		>
 
-		<com.psa.android.media.player.PlayerLayout
+		<com.simpity.android.media.player.PlayerLayout
 			android:id="@+id/PlayerLayout"
 			android:layout_width="fill_parent"
 			android:layout_height="fill_parent"
@@ -53,7 +53,7 @@
 				android:clickable="true"
 				/>
 
-		</com.psa.android.media.player.PlayerLayout>
+		</com.simpity.android.media.player.PlayerLayout>
 
 		<RelativeLayout
 			android:layout_width="fill_parent"

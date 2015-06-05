@@ -9,7 +9,7 @@
 
 <!-- RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res/com.psa.android.media"
+        xmlns:app="http://schemas.android.com/apk/res/com.simpity.android.media"
         android:id="@+id/PlayerRoot"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" -->

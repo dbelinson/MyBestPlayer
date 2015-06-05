@@ -31,8 +31,8 @@ import com.simpity.android.media.storage.RecordsManager;
 import com.simpity.android.media.storage.Storage;
 import com.simpity.android.media.utils.DefaultMenu;
 import com.simpity.android.media.video.RtspListActivity;
-//import com.psa.android.slideshow.R;
-//import com.psa.android.slideshow.SlideViewerActivity.PostAdRequest;
+//import com.simpity.android.slideshow.R;
+//import com.simpity.android.slideshow.SlideViewerActivity.PostAdRequest;
 
 public class StreamMediaActivity extends Activity implements Runnable, BackupListener {
 

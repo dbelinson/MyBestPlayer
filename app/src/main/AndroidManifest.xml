@@ -159,7 +159,7 @@
 		<!-- activity
 			android:configChanges="keyboardHidden|orientation" 
 			android:launchMode="singleTask" 
-			android:name="com.psa.android.media.radio.RadioActivity">
+			android:name="com.simpity.android.media.radio.RadioActivity">
 
 			<intent-filter>
 				<action android:name="android.intent.action.VIEW" />
@@ -173,12 +173,12 @@
 		</activity-->
 
 		<!-- activity
-			android:name="com.psa.android.media.radio.RadioEditActivity"
+			android:name="com.simpity.android.media.radio.RadioEditActivity"
 			android:configChanges="keyboardHidden|orientation"
 			/-->
 
 		<!-- activity
-			android:name="com.psa.android.media.radio.RadioListActivity"
+			android:name="com.simpity.android.media.radio.RadioListActivity"
 			android:configChanges="keyboardHidden|orientation"
 			/-->
 
@@ -214,10 +214,10 @@
 			android:name="ADMOB_INTERSTITIAL_PUBLISHER_ID"
 			/>
 
-		<activity android:name="com.admob.android.ads.AdMobActivity"
+		<!-- <activity android:name="com.admob.android.ads.AdMobActivity"
 			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
 			android:configChanges="orientation|keyboard|keyboardHidden"
-			/>
+			/>-->
 
 		<service
 			android:enabled="true"

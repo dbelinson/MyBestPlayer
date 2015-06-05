@@ -44,5 +44,7 @@ android {
 dependencies {
     compile files('libs/com.simpity.android.additional.jar')
     compile files('libs/com.simpity.android.protocol.jar')
+    compile files('libs/avro-1.3.3.jar')
     x3Compile files('libs/GoogleAdMobAdsSdk-6.4.1.jar')
+
 }

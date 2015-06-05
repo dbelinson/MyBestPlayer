@@ -50,12 +50,12 @@
 		<item name="android:layout_width">fill_parent</item>
 		<item name="android:layout_height">wrap_content</item>
 		<item name="android:layout_alignParentBottom">true</item>
-		<item name="com.psa.android.media:backgroundColor">#000000</item>
-		<item name="com.psa.android.media:textColor">#FFFFFF</item>
-		<item name="com.psa.android.media:keywords">Android Application</item>
-		<item name="com.psa.android.media:testing">true</item>
-		<item name="com.psa.android.media:isGoneWithoutAd">true</item>
-		<item name="com.psa.android.media:refreshInterval">30</item>
+		<item name="com.simpity.android.media:backgroundColor">#000000</item>
+		<item name="com.simpity.android.media:textColor">#FFFFFF</item>
+		<item name="com.simpity.android.media:keywords">Android Application</item>
+		<item name="com.simpity.android.media:testing">true</item>
+		<item name="com.simpity.android.media:isGoneWithoutAd">true</item>
+		<item name="com.simpity.android.media:refreshInterval">30</item>
 	</style>
 
 	<style name="main_button_layout">

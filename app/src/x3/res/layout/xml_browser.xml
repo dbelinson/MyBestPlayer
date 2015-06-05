@@ -9,7 +9,7 @@
 	<ImageView
 		style="@style/bottom_psa_logo" />
 
-	<com.psa.android.media.controls.SdCardXMLBrowser
+	<com.simpity.android.media.controls.SdCardXMLBrowser
 		android:id="@+id/sdcard_xml_browser"
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"

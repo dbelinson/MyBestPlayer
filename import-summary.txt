@@ -18,16 +18,16 @@ Eclipse projects. Here's how the projects were restructured:
 * AndroidManifest.xml => app\src\main\AndroidManifest.xml
 * assets\ => app\src\main\assets\
 * libs\armeabi\libhttpproxy.so => app\src\main\jniLibs\armeabi\libhttpproxy.so
-* libs\com.psa.android.additional.jar => app\libs\com.psa.android.additional.jar
-* libs\com.psa.android.protocol.jar => app\libs\com.psa.android.protocol.jar
+* libs\.android.additional.jar => app\libs\.android.additional.jar
+* libs\.android.protocol.jar => app\libs\.android.protocol.jar
 * libs\GoogleAdMobAdsSdk-6.4.1.jar => app\libs\GoogleAdMobAdsSdk-6.4.1.jar
 * libs\x86\libhttpproxy.so => app\src\main\jniLibs\x86\libhttpproxy.so
 * res\ => app\src\main\res\
 * sources\ => app\src\main\java\
-* sources\com\psa\android\media\IMediaServiceInterface.aidl => app\src\main\aidl\com\psa\android\media\IMediaServiceInterface.aidl
-* sources\com\psa\android\media\widgets\camera\ICameraWidgetServiceInterface.aidl => app\src\main\aidl\com\psa\android\media\widgets\camera\ICameraWidgetServiceInterface.aidl
-* sources\com\psa\android\media\widgets\camera\IWebCamRefreshServiceInterface.aidl => app\src\main\aidl\com\psa\android\media\widgets\camera\IWebCamRefreshServiceInterface.aidl
-* sources\com\psa\android\media\widgets\radio\IRadioWidgetServiceInterface.aidl => app\src\main\aidl\com\psa\android\media\widgets\radio\IRadioWidgetServiceInterface.aidl
+* sources\\android\media\IMediaServiceInterface.aidl => app\src\main\aidl\\android\media\IMediaServiceInterface.aidl
+* sources\\android\media\widgets\camera\ICameraWidgetServiceInterface.aidl => app\src\main\aidl\\android\media\widgets\camera\ICameraWidgetServiceInterface.aidl
+* sources\\android\media\widgets\camera\IWebCamRefreshServiceInterface.aidl => app\src\main\aidl\\android\media\widgets\camera\IWebCamRefreshServiceInterface.aidl
+* sources\\android\media\widgets\radio\IRadioWidgetServiceInterface.aidl => app\src\main\aidl\\android\media\widgets\radio\IRadioWidgetServiceInterface.aidl
 * src\ => app\src\main\java\
 
 Next Steps:

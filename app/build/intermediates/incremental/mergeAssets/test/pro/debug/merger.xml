@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\dbelinson\AndroidStudioProjects\StreamMediaPlayer\app\src\androidTest\assets"/></dataSet><dataSet config="pro"><source path="C:\Users\dbelinson\AndroidStudioProjects\StreamMediaPlayer\app\src\androidTestPro\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\src\androidTest\assets"/></dataSet><dataSet config="pro"><source path="C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\src\androidTestPro\assets"/></dataSet></merger>

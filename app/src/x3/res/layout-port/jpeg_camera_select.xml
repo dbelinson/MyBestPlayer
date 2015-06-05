@@ -8,7 +8,7 @@
 
 <!-- RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res/com.psa.android.media"
+        xmlns:app="http://schemas.android.com/apk/res/simpity.android.media"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" -->
 
@@ -334,7 +334,7 @@
 			android:focusableInTouchMode="true"
 			android:paddingLeft="4dip">
 	    
-			<com.psa.android.media.controls.fasttree.FastTree
+			<android.media.controls.fasttree.FastTree
 				android:id="@+id/jpeg_camera_all_links_FastTree"
 				android:layout_width="fill_parent"
 				android:layout_height="wrap_content"/>

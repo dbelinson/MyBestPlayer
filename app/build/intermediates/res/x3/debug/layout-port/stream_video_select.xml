@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<android.media.tab.Tabs
+		android:id="@+id/VideoPageTabs"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+		
+	<FrameLayout
+		android:id="@+id/VideoPageContainer"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/VideoPageTabs"
+		android:layout_alignParentBottom="true"
+		>
+		
+		<ScrollView
+			android:id="@+id/VideoFavoritesScroll"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:visibility="invisible" 
+			>
+			
+			<LinearLayout
+				android:id="@+id/VideoFavoritesList"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+				
+			</LinearLayout>
+		
+		</ScrollView>
+		
+		<ScrollView
+			android:id="@+id/VideoHistoryScroll"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:visibility="invisible"
+			>
+			
+			<LinearLayout
+				android:id="@+id/VideoHistoryList"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+				
+			</LinearLayout>
+		
+		</ScrollView>
+		
+		<ScrollView
+			android:id="@+id/VideoNewScroll"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:visibility="invisible"
+			>
+			
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/description"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:padding="8dip"
+					/>
+
+				<EditText
+					android:id="@+id/VideoNewDescription"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/url"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:padding="8dip"
+					/>
+
+				<EditText
+					android:id="@+id/VideoNewUrl"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					/>
+
+				<LinearLayout
+					style="@style/start_button_container">
+
+					<!--Button
+						android:id="@+id/rtsp_test_button"
+						style="@style/test_button" /-->
+
+					<Button
+						android:id="@+id/VideoNewStart"
+						style="@style/start_button" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+			
+		</ScrollView>
+			
+	</FrameLayout>		
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/layout-port/stream_video_select.xml -->

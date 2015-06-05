@@ -1,0 +1,294 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:2
+	android:versionCode
+		ADDED from AndroidManifest.xml:6:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:installLocation
+		ADDED from AndroidManifest.xml:4:2
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:9:2
+	android:name
+		ADDED from AndroidManifest.xml:9:19
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:10:2
+	android:name
+		ADDED from AndroidManifest.xml:10:19
+uses-sdk
+ADDED from AndroidManifest.xml:14:2
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:14:12
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:15:2
+	android:name
+		ADDED from AndroidManifest.xml:15:19
+application
+ADDED from AndroidManifest.xml:17:2
+	android:label
+		ADDED from AndroidManifest.xml:19:3
+	android:icon
+		ADDED from AndroidManifest.xml:18:3
+activity#com.simpity.android.media.StreamMediaActivity
+ADDED from AndroidManifest.xml:21:3
+	android:label
+		ADDED from AndroidManifest.xml:23:4
+	android:configChanges
+		ADDED from AndroidManifest.xml:24:4
+	android:name
+		ADDED from AndroidManifest.xml:22:4
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:26:4
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:27:5
+	android:name
+		ADDED from AndroidManifest.xml:27:13
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:28:5
+	android:name
+		ADDED from AndroidManifest.xml:28:15
+activity#com.simpity.android.media.camera.JpegCameraListActivity
+ADDED from AndroidManifest.xml:33:3
+	android:label
+		ADDED from AndroidManifest.xml:34:4
+	android:configChanges
+		ADDED from AndroidManifest.xml:36:4
+	android:name
+		ADDED from AndroidManifest.xml:35:4
+activity#com.simpity.android.media.camera.JpegEditActivity
+ADDED from AndroidManifest.xml:39:3
+	android:label
+		ADDED from AndroidManifest.xml:40:4
+	android:configChanges
+		ADDED from AndroidManifest.xml:42:4
+	android:name
+		ADDED from AndroidManifest.xml:41:4
+activity#com.simpity.android.media.camera.JpegCameraView
+ADDED from AndroidManifest.xml:45:3
+	android:label
+		ADDED from AndroidManifest.xml:46:4
+	android:configChanges
+		ADDED from AndroidManifest.xml:47:4
+	android:name
+		ADDED from AndroidManifest.xml:48:4
+activity#com.simpity.android.media.MJpegCameraActivity
+ADDED from AndroidManifest.xml:51:3
+	android:label
+		ADDED from AndroidManifest.xml:53:4
+	android:name
+		ADDED from AndroidManifest.xml:52:4
+activity#com.simpity.android.media.MJpegCameraView
+ADDED from AndroidManifest.xml:56:3
+	android:label
+		ADDED from AndroidManifest.xml:58:4
+	android:name
+		ADDED from AndroidManifest.xml:57:4
+activity#com.simpity.android.media.video.StreamVideoActivity
+ADDED from AndroidManifest.xml:65:3
+	android:label
+		ADDED from AndroidManifest.xml:67:4
+	android:name
+		ADDED from AndroidManifest.xml:66:4
+activity#com.simpity.android.media.video.RtspListActivity
+ADDED from AndroidManifest.xml:70:3
+	android:label
+		ADDED from AndroidManifest.xml:71:4
+	android:configChanges
+		ADDED from AndroidManifest.xml:73:4
+	android:name
+		ADDED from AndroidManifest.xml:72:4
+activity#com.simpity.android.media.video.RtspEditActivity
+ADDED from AndroidManifest.xml:76:3
+	android:label
+		ADDED from AndroidManifest.xml:77:4
+	android:configChanges
+		ADDED from AndroidManifest.xml:79:4
+	android:name
+		ADDED from AndroidManifest.xml:78:4
+activity#com.simpity.android.media.LocalVideoActivity
+ADDED from AndroidManifest.xml:86:3
+	android:label
+		ADDED from AndroidManifest.xml:88:4
+	android:name
+		ADDED from AndroidManifest.xml:87:4
+activity#com.simpity.android.media.player.PlayerActivity
+ADDED from AndroidManifest.xml:118:3
+	android:label
+		ADDED from AndroidManifest.xml:120:4
+	android:configChanges
+		ADDED from AndroidManifest.xml:121:4
+	android:name
+		ADDED from AndroidManifest.xml:119:4
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:123:4
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:124:5
+	android:name
+		ADDED from AndroidManifest.xml:124:13
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:125:5
+	android:name
+		ADDED from AndroidManifest.xml:125:15
+category#android.intent.category.BROWSABLE
+ADDED from AndroidManifest.xml:126:6
+	android:name
+		ADDED from AndroidManifest.xml:126:16
+data
+ADDED from AndroidManifest.xml:127:5
+	android:mimeType
+		ADDED from AndroidManifest.xml:127:33
+	android:scheme
+		ADDED from AndroidManifest.xml:127:11
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:131:4
+activity#com.simpity.android.media.XmlFileSelectActivity
+ADDED from AndroidManifest.xml:139:3
+	android:label
+		ADDED from AndroidManifest.xml:141:4
+	android:name
+		ADDED from AndroidManifest.xml:140:4
+activity#com.simpity.android.media.XmlBrowseActivity
+ADDED from AndroidManifest.xml:143:3
+	android:label
+		ADDED from AndroidManifest.xml:145:4
+	android:name
+		ADDED from AndroidManifest.xml:144:4
+activity#com.simpity.android.media.AboutActivity
+ADDED from AndroidManifest.xml:147:3
+	android:label
+		ADDED from AndroidManifest.xml:149:4
+	android:configChanges
+		ADDED from AndroidManifest.xml:151:4
+	android:theme
+		ADDED from AndroidManifest.xml:150:4
+	android:name
+		ADDED from AndroidManifest.xml:148:4
+activity#com.simpity.android.media.HelpActivity
+ADDED from AndroidManifest.xml:153:3
+	android:label
+		ADDED from AndroidManifest.xml:155:4
+	android:configChanges
+		ADDED from AndroidManifest.xml:157:4
+	android:theme
+		ADDED from AndroidManifest.xml:154:4
+	android:name
+		ADDED from AndroidManifest.xml:156:4
+activity#com.simpity.android.media.radio.RadioSelectActivity
+ADDED from AndroidManifest.xml:185:3
+	android:configChanges
+		ADDED from AndroidManifest.xml:187:4
+	android:theme
+		ADDED from AndroidManifest.xml:188:4
+	android:name
+		ADDED from AndroidManifest.xml:186:4
+	android:launchMode
+		ADDED from AndroidManifest.xml:189:4
+meta-data#ADMOB_PUBLISHER_ID
+ADDED from AndroidManifest.xml:206:3
+	android:name
+		ADDED from AndroidManifest.xml:208:4
+	android:value
+		ADDED from AndroidManifest.xml:207:4
+meta-data#ADMOB_INTERSTITIAL_PUBLISHER_ID
+ADDED from AndroidManifest.xml:212:3
+	android:name
+		ADDED from AndroidManifest.xml:214:4
+	android:value
+		ADDED from AndroidManifest.xml:213:4
+activity#com.admob.android.ads.AdMobActivity
+ADDED from AndroidManifest.xml:217:3
+	android:configChanges
+		ADDED from AndroidManifest.xml:219:4
+	android:theme
+		ADDED from AndroidManifest.xml:218:4
+	android:name
+		ADDED from AndroidManifest.xml:217:13
+service#com.simpity.android.media.MediaService
+ADDED from AndroidManifest.xml:222:3
+	android:enabled
+		ADDED from AndroidManifest.xml:223:4
+	android:name
+		ADDED from AndroidManifest.xml:224:4
+activity#com.simpity.android.media.PreferencesActivity
+ADDED from AndroidManifest.xml:227:3
+	android:name
+		ADDED from AndroidManifest.xml:228:4
+service#com.simpity.android.media.widgets.radio.RadioWidgetService
+ADDED from AndroidManifest.xml:231:3
+	android:name
+		ADDED from AndroidManifest.xml:232:4
+receiver#com.simpity.android.media.widgets.radio.RadioWidgetProvider
+ADDED from AndroidManifest.xml:235:3
+	android:label
+		ADDED from AndroidManifest.xml:237:4
+	android:icon
+		ADDED from AndroidManifest.xml:236:4
+	android:name
+		ADDED from AndroidManifest.xml:238:4
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:240:4
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:241:5
+	android:name
+		ADDED from AndroidManifest.xml:241:13
+meta-data#android.appwidget.provider
+ADDED from AndroidManifest.xml:244:4
+	android:resource
+		ADDED from AndroidManifest.xml:246:5
+	android:name
+		ADDED from AndroidManifest.xml:245:5
+activity#com.simpity.android.media.widgets.camera.CameraWidgetConfiguration
+ADDED from AndroidManifest.xml:268:3
+	android:label
+		ADDED from AndroidManifest.xml:271:4
+	android:icon
+		ADDED from AndroidManifest.xml:270:4
+	android:name
+		ADDED from AndroidManifest.xml:269:4
+intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from AndroidManifest.xml:273:4
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from AndroidManifest.xml:274:5
+	android:name
+		ADDED from AndroidManifest.xml:274:13
+activity#com.google.ads.AdActivity
+ADDED from AndroidManifest.xml:279:3
+	android:configChanges
+		ADDED from AndroidManifest.xml:281:4
+	android:name
+		ADDED from AndroidManifest.xml:280:4
+service#com.simpity.android.media.widgets.camera.CameraWidgetService
+ADDED from AndroidManifest.xml:283:3
+	android:name
+		ADDED from AndroidManifest.xml:284:4
+service#com.simpity.android.media.widgets.camera.WebCamRefreshService
+ADDED from AndroidManifest.xml:287:3
+	android:name
+		ADDED from AndroidManifest.xml:288:4
+supports-screens
+ADDED from AndroidManifest.xml:293:2
+	android:largeScreens
+		ADDED from AndroidManifest.xml:294:3
+	android:anyDensity
+		ADDED from AndroidManifest.xml:297:3
+	android:normalScreens
+		ADDED from AndroidManifest.xml:295:3
+	android:smallScreens
+		ADDED from AndroidManifest.xml:296:3

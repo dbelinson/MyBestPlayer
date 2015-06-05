@@ -16,6 +16,7 @@ import android.util.Log;
 import com.simpity.android.protocol.AbsoluteTime;
 import com.simpity.android.protocol.BaseTime;
 import com.simpity.android.protocol.Rtp;
+import com.simpity.android.protocol.RtpPacketHandler;
 import com.simpity.android.protocol.Rtsp.ContentType;
 import com.simpity.android.protocol.RtspCode;
 import com.simpity.android.protocol.RtspField;
@@ -72,8 +73,8 @@ public class RTSPClient {
 		mContentURL = urlAddress;
 		mTransport = new RtspTransport[2];
 		mRtpChannels = new Rtp[2];
-		mTransport[ContentType.AUDIO.index] = new RtspTransport(ContentType.AUDIO);
-		mTransport[ContentType.VIDEO.index] = new RtspTransport(ContentType.VIDEO);
+		mTransport[ContentTypeA.AUDIO.index] = new RtspTransport(ContentType.AUDIO);
+		mTransport[ContentTypeA.VIDEO.index] = new RtspTransport(ContentType.VIDEO);
 		hostName = urlAddress.split("/")[2];
 		String[] addr = hostName.split(":");
 		if(addr.length > 0)
@@ -470,7 +471,18 @@ public class RTSPClient {
 	 *
 	 * @return
 	 */
-	public int Setup(ContentType type) {
+	public enum ContentTypeA {
+
+		VIDEO(0), AUDIO(1), GLOBAL(2);
+
+		final public int index;
+
+		ContentTypeA(int index) {
+			this.index = index;
+		}
+	}
+
+	public int Setup(ContentTypeA type) {
 		if((mSupportCommand & SETUP_COMMAND) == 0)
 			return RtspCode.NOT_IMPLEMENTED;
 
@@ -514,22 +526,32 @@ public class RTSPClient {
 			mSupportCommand &= ~SETUP_COMMAND;
 		}
 		mRtpChannels[type.index] = new Rtp(mTransport[type.index].client_port);
-		mRtpChannels[type.index].setRtpPacketHandler(mTransport[type.index]);
+		mRtpChannels[type.index].setRtpPacketHandler( mTransport[type.index]);
 		return code;
 	}
 
-	private RtspTransport GetTransport(ContentType type)
+	private RtspTransport GetTransport(ContentTypeA type)
 	{
 		return mTransport[type.index];
 	}
 
-	public OutputStream GetData(ContentType type)
+	public OutputStream GetData(ContentTypeA type)
 	{
 		return mTransport[type.index].GetData();
 	}
 
 	//--------------------------------------------------------------------------
-	private String getAddress(ContentType type) {
+
+	/*public enum ContentType {
+		VIDEO(0), AUDIO(1), GLOBAL(2);
+
+		final public int index1;
+
+		ContentType(int index1) {
+			this.index1 = index1;
+		}
+	}*/
+	public String getAddress(ContentTypeA type) {
 		switch(type) {
 		case VIDEO:
 			return mVideoContentURL;
@@ -557,7 +579,7 @@ public class RTSPClient {
 	 * while a previous PLAY request is still active is delayed until the first
 	 * has been completed.
 	 */
-	public int Play(ContentType type, BaseTime start, BaseTime end, AbsoluteTime time) {
+	public int Play(ContentTypeA type, BaseTime start, BaseTime end, AbsoluteTime time) {
 		if((mSupportCommand & PLAY_COMMAND) == 0)
 			return RtspCode.NOT_IMPLEMENTED;
 
@@ -640,7 +662,7 @@ public class RTSPClient {
 	 * the duration specified with the timeout parameter of the Session header
 	 * in the SETUP message.
 	 */
-	public int Pause(ContentType type) {
+	public int Pause(ContentTypeA type) {
 		if((mSupportCommand & PAUSE_COMMAND) == 0)
 			return RtspCode.NOT_IMPLEMENTED;
 
@@ -692,7 +714,7 @@ public class RTSPClient {
 	 * by the session description, a SETUP request has to be issued before the
 	 * session can be played again.
 	 */
-	public int Teardown(ContentType type) {
+	public int Teardown(ContentTypeA type) {
 		if((mSupportCommand & TEARDOWN_COMMAND) == 0)
 			return RtspCode.NOT_IMPLEMENTED;
 

@@ -18,7 +18,7 @@ import com.simpity.android.media.Res;
 
 public class CameraWidgetConfiguration extends Activity {
 	
-	public static final String ACTION_WIDGET_CONFIGURED = "com.psa.android.media.widgets.camera.ACTION_WIDGET_CONFIGURED"; 
+	public static final String ACTION_WIDGET_CONFIGURED = "com.simpity.android.media.widgets.camera.ACTION_WIDGET_CONFIGURED";
 	
 	private static final String PREF_URL_KEY = "URL_";
 	private static final String PREF_PERIOD_KEY = "REFRESH_PERIOD_";

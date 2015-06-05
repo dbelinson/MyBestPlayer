@@ -8,7 +8,7 @@
 
 <!-- RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res/com.psa.android.media"
+        xmlns:app="http://schemas.android.com/apk/res/simpity.android.media"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" -->
 
@@ -317,7 +317,7 @@
 				android:focusable="true"
 				android:focusableInTouchMode="true"/>
 			<!--  
-			<com.psa.android.media.controls.TreeView
+			<.android.media.controls.TreeView
 				android:id="@+id/rtsp_all_links"
 				android:layout_width="fill_parent"
 				android:layout_height="fill_parent"
@@ -331,7 +331,7 @@
 				android:focusable="true"
 				android:focusableInTouchMode="true">
 		    
-				<com.psa.android.media.controls.fasttree.FastTree
+				<android.media.controls.fasttree.FastTree
 					android:id="@+id/rtsp_all_links_FastTree"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content"/>

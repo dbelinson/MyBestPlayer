@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="camera_refresh_time_entries">
+		<item>@string/refresh_time_1</item>
+		<item>@string/refresh_time_5</item>
+		<item>@string/refresh_time_10</item>
+		<item>@string/refresh_time_15</item>
+		<item>@string/refresh_time_30</item>
+		<item>@string/refresh_time_60</item>
+		<item>@string/refresh_time_600</item>
+		<item>@string/refresh_time_1800</item>
+		<item>@string/refresh_time_3600</item>
+	</string-array>
+    <string-array name="camera_refresh_time_values" translatable="false">
+		<item>1</item>
+		<item>5</item>
+		<item>10</item>
+		<item>15</item>
+		<item>30</item>
+		<item>60</item>
+		<item>600</item>
+		<item>1800</item>
+		<item>3600</item>
+	</string-array>
+    <string-array name="pref_backup_schedule_entries">
+		<item>@string/pref_backup_schedule_off</item>
+		<item>@string/pref_backup_schedule_daily</item>
+		<item>@string/pref_backup_schedule_weekly</item>
+		<item>@string/pref_backup_schedule_monthly</item>
+	</string-array>
+    <string-array name="pref_backup_schedule_values" translatable="false">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+    <string-array name="pref_links_list_click_action_entries">
+		<item>@string/links_click_action_menu</item>
+		<item>@string/links_click_action_start</item>
+	</string-array>
+    <string-array name="pref_links_list_click_action_values" translatable="false">
+		<item>ShowMenu</item>
+		<item>StartContent</item>
+	</string-array>
+    <string-array name="pref_links_list_default_tab_entries">
+		<item>@string/default_tab_all_links</item>
+		<item>@string/default_tab_favorites</item>
+		<item>@string/default_tab_history</item>
+		<item>@string/default_tab_new</item>
+	</string-array>
+    <string-array name="pref_links_list_default_tab_values" translatable="false">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+    <string-array name="pref_local_media_default_tab_entries">
+		<item>@string/default_media_tab_files</item>
+		<item>@string/default_media_tab_gallery</item>
+	</string-array>
+    <string-array name="pref_local_media_default_tab_values" translatable="false">
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+    <string-array name="pref_radio_buffering_entries">
+		<item>@string/refresh_time_1</item>
+		<item>@string/refresh_time_5</item>
+		<item>@string/refresh_time_10</item>
+		<item>@string/refresh_time_15</item>
+		<item>@string/buffering_time_20</item>
+		<item>@string/refresh_time_30</item>
+		<item>@string/buffering_time_45</item>
+		<item>@string/refresh_time_60</item>
+	</string-array>
+    <string-array name="pref_radio_buffering_values" translatable="false">
+		<item>1</item>
+		<item>5</item>
+		<item>10</item>
+		<item>15</item>
+		<item>20</item>
+		<item>30</item>
+		<item>45</item>
+		<item>60</item>
+	</string-array>
+    <string-array name="pref_reconnect_period_entries">
+		<item>@string/sec_1</item>
+		<item>@string/sec_2</item>
+		<item>@string/sec_3</item>
+		<item>@string/sec_5</item>
+		<item>@string/sec_10</item>
+		<item>@string/sec_15</item>
+		<item>@string/sec_20</item>
+		<item>@string/sec_30</item>
+		<item>@string/min_1</item>
+		<item>@string/min_3</item>
+		<item>@string/min_5</item>
+	</string-array>
+    <string-array name="pref_reconnect_period_values" translatable="false">
+		<item>1000</item>
+		<item>2000</item>
+		<item>3000</item>
+		<item>5000</item>
+		<item>10000</item>
+		<item>15000</item>
+		<item>20000</item>
+		<item>30000</item>
+		<item>60000</item>
+		<item>180000</item>
+		<item>300000</item>
+	</string-array>
+    <string-array name="pref_reconnect_retries_entries" translatable="false">
+		<item>Unlimited</item>
+		<item>5</item>
+		<item>10</item>
+		<item>20</item>
+		<item>30</item>
+		<item>40</item>
+		<item>50</item>
+		<item>75</item>
+		<item>100</item>
+	</string-array>
+    <string-array name="pref_reconnect_retries_values" translatable="false">
+		<item>2147483647</item>
+		<item>5</item>
+		<item>10</item>
+		<item>20</item>
+		<item>30</item>
+		<item>40</item>
+		<item>50</item>
+		<item>75</item>
+		<item>100</item>
+	</string-array>
+    <string-array name="pref_video_ratio_entries" translatable="false">
+		<item>@string/video_ratio_default</item>
+		<item>@string/video_ratio_original</item>
+		<item>4:3</item>
+		<item>5:4</item>
+		<item>16:9</item>
+	</string-array>
+    <string-array name="pref_video_ratio_values" translatable="false">
+		<item>Keep</item>
+		<item>Original</item>
+		<item>FourToTree</item>
+		<item>FiveToFour</item>
+		<item>SixteenToNine</item>
+	</string-array>
+    <string-array name="video_categories">
+		<item>@string/category_other</item>
+		<item>@string/category_anime</item>
+		<item>@string/category_cartoons</item>
+		<item>@string/category_crime</item>
+		<item>@string/category_fun</item>
+		<item>@string/category_movies</item>
+		<item>@string/category_oldie</item>
+		<item>@string/category_music</item>
+		<item>@string/category_news</item>
+		<item>@string/category_sports</item>
+		<item>@string/category_traffic</item>
+		<item>@string/category_travel</item>
+		<item>@string/category_tv</item>
+	</string-array>
+    <declare-styleable name="EditTextWithHistory"><attr format="string" name="historyKey"/></declare-styleable>
+    <declare-styleable name="com.admob.android.ads.AdView"><attr format="boolean" name="testing"/><attr format="color" name="backgroundColor"/><attr format="color" name="textColor"/><attr format="string" name="keywords"/><attr format="integer" name="refreshInterval"/><attr format="boolean" name="isGoneWithoutAd"/></declare-styleable>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="DownloadMsg">This video can\'t be played directly from the server. Would you like to download it to SD card and play as a local media.</string>
+    <string name="DownloadingNotes">File will be placed to \'Download\' folder on SD card.</string>
+    <string name="Password">Enter Password</string>
+    <string name="Unknown">Unknown</string>
+    <string name="Username">Enter Username</string>
+    <string name="about">About</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string formatted="false" name="added_to_playlist">Station \"%s\" was added to playlist \"%s\"</string>
+    <string name="allLinks">All Links</string>
+    <string formatted="false" name="already_in_playlist">Station \"%s\" already present in playlist \"%s\"</string>
+    <string name="always_start_download">Do not show this dialog again, always start download.</string>
+    <string name="app_name">Stream Media Player</string>
+    <string name="buffering">Buffering...</string>
+    <string name="buffering_time_20">20 sec</string>
+    <string name="buffering_time_45">45 sec</string>
+    <string name="cant_connect_to_link">Sorry, couldn\'t connect to the specified link.</string>
+    <string name="category">Category</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="category_anime">Anime</string>
+    <string name="category_cartoons">Cartoons</string>
+    <string name="category_crime">Crime</string>
+    <string name="category_fun">Fun</string>
+    <string name="category_movies">Movies</string>
+    <string name="category_music">Music</string>
+    <string name="category_news">News</string>
+    <string name="category_oldie">Oldie</string>
+    <string name="category_other">Other</string>
+    <string name="category_sports">Sports</string>
+    <string name="category_traffic">Traffic</string>
+    <string name="category_travel">Travel</string>
+    <string name="category_tv">TV</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="check_internet_connection">Please check your Internet connection first.</string>
+    <string name="check_links">Check links</string>
+    <string name="checking_links">Checking links</string>
+    <string formatted="false" name="checking_status_msg_fmt">Checking %d/%d</string>
+    <string name="clear">Clear</string>
+    <string name="composition">Composition:</string>
+    <string name="content_type">Content-Type:</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="copyright1">Copyright (c) 2010-2014</string>
+    <string name="copyright2">Professional Software Associates, Inc.</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="create_group">Create Child Group</string>
+    <string name="default_media_tab_files">Files</string>
+    <string name="default_media_tab_gallery">Gallery</string>
+    <string name="default_tab_all_links">All Links</string>
+    <string name="default_tab_favorites">Favorites</string>
+    <string name="default_tab_history">History</string>
+    <string name="default_tab_new">New</string>
+    <string name="description">Title</string>
+    <string name="direct_link">Direct link</string>
+    <string name="edit">Edit</string>
+    <string name="email_chooser_title">Send Link using:</string>
+    <string name="empty_playlist">Playlist is empty</string>
+    <string name="enable_security">Enable security</string>
+    <string name="error">Error</string>
+    <string name="favorites">Favorites</string>
+    <string name="files">Files</string>
+    <string name="free_version_limitation_msg">Links in this category are available only in Stream Media Player Pro. Would you like to install this version?</string>
+    <string name="gallery">Gallery</string>
+    <string name="genre">Genre:</string>
+    <string name="genres_item">Genres</string>
+    <string name="graphics">Graphics</string>
+    <string name="help">Help</string>
+    <string name="history">History</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="http_prefix">http://</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="install">Install</string>
+    <string name="internet_radio_address">Internet Radio Address</string>
+    <string name="internet_radio_name">Internet Radio Name</string>
+    <string name="internet_stream_media">Internet Video</string>
+    <string name="invalid_link">The link is invalid.</string>
+    <string name="invalid_playlist_name">Invalid playlist name</string>
+    <string name="invalid_protocol">Invalid protocol. The address should begin with \'rtsp://\' or \'http://\'.</string>
+    <string name="invalid_rtp_port">Please enter valid port number (0 - 65535).</string>
+    <string name="invalid_url_error">Invalid url \'%s\'.</string>
+    <string name="jpeg_camera_refresh_description_fmt">(Refresh: %ds)</string>
+    <string name="jpeg_edit_title">JPEG Web Camera</string>
+    <string name="jpeg_select_title">Select JPEG Web Camera</string>
+    <string name="jpeg_web_camera">JPEG Web Camera</string>
+    <string name="last_backup">Last backup:</string>
+    <string name="link_share_error_msg">Error occurs. Link not shared</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="link_share_site_host_name">psa-mobile.com</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="link_shared_msg">Link successfully shared</string>
+    <string name="links_click_action_menu">Show context menu</string>
+    <string name="links_click_action_start">Start playback</string>
+    <string name="local_media_files">Local media files</string>
+    <string name="min_1">1 m</string>
+    <string name="min_3">3 m</string>
+    <string name="min_5">5 m</string>
+    <string name="mjpeg_rtp_camera">Motion-JPEG Web Camera</string>
+    <string name="move_down">Down</string>
+    <string name="move_up">Up</string>
+    <string name="msg_enter_url">Enter Internet address</string>
+    <string name="msg_from_dev_title">A message from developers</string>
+    <string name="msg_links_update_completed">Links database successfully updated</string>
+    <string name="msg_remove_marked_link">During update links from server this link was marked as dead, please choose action to perform.</string>
+    <string name="msg_url_empty">Internet address is empty</string>
+    <string name="na_links_description_text">DEAD links -</string>
+    <string name="new_links_description_text">NEW! links -</string>
+    <string name="new_playlist">New playlist</string>
+    <string name="new_record">New</string>
+    <string name="no_links">No links in storage</string>
+    <string name="not_show_again">Do not show this dialog again</string>
+    <string name="open_media_error">Can`t open \'%s\'.</string>
+    <string name="phoneIPs">Phone IP Addresses:</string>
+    <string name="player_downloaded">Downloaded (bytes):</string>
+    <string name="player_file_name">File name:</string>
+    <string name="player_file_size">File size (bytes):</string>
+    <string name="playing">Playing</string>
+    <string formatted="false" name="playlist_exists">Playlist \"%s\" already exists. Do you want to add \"%s\" to existing playlist?</string>
+    <string name="playlist_name">Playlist name</string>
+    <string name="playlists">Playlists</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="pref_backup_category">Backup</string>
+    <string name="pref_backup_now">Backup links</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_backup_now_key">pref_backup_now</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_backup_now_summary">Create links list restore point</string>
+    <string name="pref_backup_restore">Restore links</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_backup_restore_key">pref_backup_restore</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_backup_restore_summary">Restore links list from backup</string>
+    <string name="pref_backup_schedule_daily">Daily</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_backup_schedule_key">pref_backup_schedule</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_backup_schedule_monthly">Monthly</string>
+    <string name="pref_backup_schedule_off">Off</string>
+    <string name="pref_backup_schedule_summary">Schedule of links backup into storage (SD card)</string>
+    <string name="pref_backup_schedule_title">Backup schedule</string>
+    <string name="pref_backup_schedule_weekly">Weekly</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_is_auto_share_key">pref_is_auto_share_key</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_is_auto_share_summary">Do not show share dialog and share link automatically</string>
+    <string name="pref_is_auto_share_title">Share Link Automatically</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_is_show_share_link_dlg_key">pref_is_show_share_link_dlg_key</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_is_show_share_link_dlg_summary">Show share link dialog</string>
+    <string name="pref_is_show_share_link_dlg_title">Show Share Link Dialog</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_links_list_click_action_key">pref_links_list_click_action_key</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_links_list_click_action_summary">Set action on link click</string>
+    <string name="pref_links_list_click_action_title">Link Click Action</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_links_list_default_tab_key">pref_links_list_default_tab_key</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_links_list_default_tab_summary">Initial tab to view</string>
+    <string name="pref_links_list_default_tab_title">Default Tab</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_links_list_is_update_key">pref_links_list_is_update_key</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_links_list_options_category">Links Settings</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_links_list_update_period_key">pref_links_list_update_period_key</string>
+    <string name="pref_links_list_use_auto_checking_key">pref_links_list_use_auto_checking_key</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_links_list_use_auto_checking_summary">Automatically check links availability after links update</string>
+    <string name="pref_links_list_use_auto_checking_title">Auto check links</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_links_list_use_sorting_key">pref_links_list_use_sorting_key</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_links_list_use_sorting_title">Sort links list (a-z)</string>
+    <string name="pref_local_media_category">Local Media Files Settings</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_local_media_default_tab_key">pref_local_media_default_tab_key</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_local_media_default_tab_summary">Initial tab to view</string>
+    <string name="pref_local_media_default_tab_title">Default Tab</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_local_media_show_all_files_key">pref_local_media_show_all_files_key</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_local_media_show_all_files_title">Show All Files</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_radio_buffering_key">radio_buffering</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_radio_buffering_title">Buffering time</string>
+    <string name="pref_radio_category">Internet Radio Settings</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_radio_reconnect_on_disconnect_key">pref_radio_reconnect_on_disconnect_key</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_radio_reconnect_on_disconnect_summary">Automatically reconnect on connection lost</string>
+    <string name="pref_radio_reconnect_on_disconnect_title">Reconnect</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_radio_reconnect_period_key">pref_radio_reconnect_period_key</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_radio_reconnect_period_title">Retry Period</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_radio_reconnect_retries_key">pref_radio_reconnect_retries_key</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_radio_reconnect_retries_title">Reconnect Retries</string>
+    <string name="pref_share_link_category">Link Sharing Settings</string>
+    <string name="pref_title">Stream Media Player Preferences</string>
+    <string name="pref_video_category">Internet Video Settings</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_video_landscape_default_ratio_key">pref_video_landscape_default_ratio_key</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_landscape_default_ratio_summary">Default aspect ratio in landscape orientation</string>
+    <string name="pref_video_landscape_default_ratio_title">Landscape Aspect Ratio</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="pref_video_portrait_default_ratio_key">pref_video_portrait_default_ratio_key</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_portrait_default_ratio_summary">Default aspect ratio in portrait orientation</string>
+    <string name="pref_video_portrait_default_ratio_title">Portrait Aspect Ratio</string>
+    <string name="provider_url">Provider URL:</string>
+    <string name="radio">Internet Radio</string>
+    <string name="radio_name">Name:</string>
+    <string name="read_error">Read error of \'%s\'.</string>
+    <string name="reconnect_delay" translatable="false">Reconnect delay…</string>
+    <string name="reconnect_refresh">Reconnect/Refresh</string>
+    <string name="reconnecting">Reconnecting…</string>
+    <string name="refresh">Refresh period</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="refresh_time_1">1 sec</string>
+    <string name="refresh_time_10">10 sec</string>
+    <string name="refresh_time_15">15 sec</string>
+    <string name="refresh_time_1800">30 min</string>
+    <string name="refresh_time_30">30 sec</string>
+    <string name="refresh_time_3600">1 hour</string>
+    <string name="refresh_time_5">5 sec</string>
+    <string name="refresh_time_60">1 min</string>
+    <string name="refresh_time_600">10 min</string>
+    <string name="remove">Remove</string>
+    <string name="remove_all_marked">Remove all marked</string>
+    <string name="remove_from_favorites">Remove from Favorites</string>
+    <string formatted="false" name="remove_from_playlist">Do you want to remove \"%s\" from playlist?</string>
+    <string name="remove_question">Are you sure you want to remove \'%s\'?</string>
+    <string formatted="false" name="remove_question2">Are you sure you want to remove \'%s\' (%s)?</string>
+    <string name="remove_this">Remove link</string>
+    <string name="rename">Rename</string>
+    <string name="restore_question">Are you sure you want to restore links database? Current links will be lost.</string>
+    <string name="rtp_port">Port</string>
+    <string name="rtp_server">RTP Server</string>
+    <string name="rtsp_edit_title">Stream video source</string>
+    <string name="rtsp_select_title">Select stream video source</string>
+    <string name="sdcard_select_title">Select media file</string>
+    <string name="search">Search</string>
+    <string name="sec_1">1 s</string>
+    <string name="sec_10">10 s</string>
+    <string name="sec_15">15 s</string>
+    <string name="sec_2">2 s</string>
+    <string name="sec_20">20 s</string>
+    <string name="sec_3">3 s</string>
+    <string name="sec_30">30 s</string>
+    <string name="sec_5">5 s</string>
+    <string name="select_import_list">Select import list</string>
+    <string name="select_playlist">Select playlist</string>
+    <string name="send_email_menu">Share</string>
+    <string name="settings">Settings</string>
+    <string name="share_link">Would you like to share this link?</string>
+    <string name="show_all_files">Show all files</string>
+    <string name="start">Start</string>
+    <string name="starting">Starting</string>
+    <string name="stations">Stations</string>
+    <string name="stopped">Stopped</string>
+    <string name="test">Test</string>
+    <string name="try_connect">Try playback</string>
+    <string name="updating_links">Updating links</string>
+    <string name="url">Internet address</string>
+    <string name="valid_link">The link is valid.</string>
+    <string name="version">Version</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/main/res/values/donottranslate.xml -->
+    <eat-comment/>
+    <string name="versionName">4.0.7 beta 2</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="video_cant_be_played">Sorry, this video can\'t be played.</string>
+    <string name="video_connection_lost">Connection lost, reconnect?</string>
+    <string name="video_ratio_default">No default</string>
+    <string name="video_ratio_original">Original</string>
+    <string name="whats_new_title">What\'s new</string>
+    <string name="xml_browse">Browse</string>
+    <string name="xml_import">Import</string>
+    <!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="adView_style">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_alignParentBottom">true</item>
+		<item name="com.simpity.android.media:backgroundColor">#000000</item>
+		<item name="com.simpity.android.media:textColor">#FFFFFF</item>
+		<item name="com.simpity.android.media:keywords">Android Application</item>
+		<item name="com.simpity.android.media:testing">true</item>
+		<item name="com.simpity.android.media:isGoneWithoutAd">true</item>
+		<item name="com.simpity.android.media:refreshInterval">30</item>
+	</style>
+    <style name="bottom_psa">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_alignParentBottom">true</item>
+	</style>
+    <style name="bottom_psa_logo">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<!--item name="android:scaleType">center</item-->
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:src">@drawable/psa_logo2</item>
+		<!--item name="android:src">@drawable/psa_back1</item-->
+	</style>
+    <style name="content_land">
+		<item name="android:typeface">serif</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">21dip</item>
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+    <style name="content_port">
+		<item name="android:typeface">serif</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">22dip</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+    <style name="content_port_small">
+		<item name="android:typeface">serif</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">15dip</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+    <style name="dialog_cancel_button">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingLeft">30dip</item>
+		<item name="android:paddingRight">30dip</item>
+		<item name="android:paddingTop">16dip</item>
+		<item name="android:paddingBottom">16dip</item>
+		<item name="android:text">@android:string/cancel</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+	</style>
+    <style name="dialog_ok_button">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingLeft">40dip</item>
+		<item name="android:paddingRight">40dip</item>
+		<item name="android:paddingTop">16dip</item>
+		<item name="android:paddingBottom">16dip</item>
+		<item name="android:text">@android:string/ok</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+	</style>
+    <style name="header_land">
+		<item name="android:textSize">19dip</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingTop">3dip</item>
+		<item name="android:typeface">serif</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:textColor">#C8C8C8</item>
+	</style>
+    <style name="header_port">
+		<item name="android:textSize">19dip</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingTop">3dip</item>
+		<item name="android:typeface">serif</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:gravity">center_horizontal|bottom</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:textColor">#C8C8C8</item>
+	</style>
+    <style name="header_port_small">
+		<item name="android:textSize">15dip</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingRight">3dip</item>
+		<item name="android:typeface">serif</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:textColor">#C8C8C8</item>
+	</style>
+    <style name="help_content_image_layout">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">center_horizontal</item>
+		<item name="android:padding">10dip</item>
+
+	</style>
+    <style name="help_content_layout">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">fill</item>
+
+		<item name="android:textSize">16dip</item>
+		<item name="android:paddingRight">10dip</item>
+		<item name="android:paddingLeft">10dip</item>
+	</style>
+    <style name="help_content_subitem_layout">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">16dip</item>
+		<item name="android:paddingRight">10dip</item>
+		<item name="android:paddingLeft">20dip</item>
+		<item name="android:paddingTop">8dip</item>
+	</style>
+    <style name="help_header">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">18dip</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:paddingBottom">10dip</item>
+		<item name="android:paddingTop">20dip</item>
+		<item name="android:paddingLeft">10dip</item>
+	</style>
+    <style name="main_button_arrow">
+		<item name="android:layout_width">30dip</item>
+		<item name="android:layout_height">30dip</item>
+		<item name="android:paddingTop">5dip</item>
+		<item name="android:paddingRight">5dip</item>
+		<item name="android:gravity">center</item>
+	</style>
+    <style name="main_button_icon">
+		<item name="android:layout_width">40dip</item>
+		<item name="android:layout_height">40dip</item>
+		<item name="android:paddingLeft">5dip</item>
+
+	</style>
+    <style name="main_button_layout">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+    <style name="main_button_linear_lh">
+		<item name="android:orientation">horizontal</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:padding">8dip</item>
+		<item name="android:gravity">center_vertical</item>
+	</style>
+    <style name="main_button_linear_lv">
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">46dip</item>
+		<item name="android:layout_weight">1.0</item>
+	</style>
+    <style name="main_button_shape">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">60dip</item>
+		<!--<item name="android:src">@drawable/main_button_shape</item>
+		<item name="android:focusable">true</item>
+		<item name="android:clickable">true</item>
+		item name="android:focusableInTouchMode">true</item-->
+	</style>
+    <style name="main_button_title">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingLeft">12dip</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+		<!--item name="android:textStyle">bold</item-->
+		<item name="android:textColor">#000</item>
+	</style>
+    <style name="main_layout">
+		<item name="android:paddingTop">6dip</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_gravity">fill</item>
+		<item name="android:gravity">fill</item>
+	</style>
+    <style name="media_player_control_button">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<!--item name="android:paddingLeft">20dip</item>
+		<item name="android:paddingRight">20dip</item-->
+		<item name="android:padding">16dip</item>
+	</style>
+    <style name="pref_layout">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:padding">6dip</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:gravity">center_horizontal</item>
+	</style>
+    <style name="pref_title_layout">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingBottom">2dip</item>
+	</style>
+    <style name="scroll_style">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+    <style name="start_button">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:text">@string/start</item>
+		<item name="android:paddingLeft">32dip</item>
+		<item name="android:paddingRight">32dip</item>
+		<item name="android:paddingTop">8dip</item>
+		<item name="android:paddingBottom">8dip</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+	</style>
+    <style name="start_button_container">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:paddingTop">8dip</item>
+		<item name="android:paddingRight">8dip</item>
+		<item name="android:gravity">center</item>
+	</style>
+    <style name="updating_text">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:text">@string/updating_links</item>
+		<item name="android:textColor">#FFFFFFFF</item>
+	</style>
+    <style name="updating_text_layout">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:layout_alignParentBottom">true</item>
+		<item name="android:padding">2dip</item>
+		<item name="android:visibility">invisible</item>
+		<item name="android:background">#C0202020</item>
+	</style>
+</resources>

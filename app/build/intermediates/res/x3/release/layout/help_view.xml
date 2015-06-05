@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ScrollView
+		android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:scrollbars="vertical">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="fill">
+
+			<ImageView
+				android:id="@+id/psa_logo"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/psa_logo" />
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_below="@id/psa_logo"
+				android:gravity="top|left">
+
+				<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_alignParentBottom="true"
+					android:layout_below="@id/psa_logo"
+					android:id="@+id/header1">
+
+					<TextView
+						style="@style/help_header"
+						android:layout_width="fill_parent"
+						android:gravity="center_horizontal"
+						android:text="@string/app_name"
+						android:padding="0dip" />
+
+					<TextView
+						style="@style/help_header"
+						android:layout_width="fill_parent"
+						android:gravity="center_horizontal"
+						android:text="@string/version"
+						android:id="@+id/version"
+						android:paddingLeft="0dip"
+						android:paddingTop="0dip"
+						android:paddingRight="0dip" />
+
+				</LinearLayout>
+
+
+				<LinearLayout
+					android:paddingLeft="10dip"
+					android:paddingTop="3dip"
+					android:paddingBottom="3dip"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<LinearLayout
+						android:id="@+id/whats_new_link"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:paddingBottom="3dip"
+						android:background="#FFFFFFFF"
+						android:clickable="true">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="What's new in this version"
+							android:textColor="#FF5A5AFF"
+							android:padding="0dip"
+							android:textSize="15dip" />
+
+						<LinearLayout
+							android:layout_width="fill_parent"
+							android:layout_height="1dip"
+							android:background="#FF5A5AFF"
+							android:layout_margin="0dip" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+
+				<TextView
+					style="@style/help_content_layout"
+					android:text="Stream Media Player is an application that provides an ability to play video from different web cameras (JPEG, Motion-JPEG, Stream) or locally stored files. It's also capable to play podcasts audio streams (MP3) from Internet Radio stations. Last used links and paths are automatically saved to History. For list of supported formats please check" />
+
+				<LinearLayout
+					android:paddingLeft="10dip"
+					android:paddingRight="10dip"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<LinearLayout
+						android:id="@+id/supported_formats_link"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:paddingBottom="3dip"
+						android:background="#FFFFFFFF"
+						android:clickable="true">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Android Supported Media Formats"
+							android:textColor="#FF5A5AFF"
+							android:padding="0dip"
+							android:textSize="15dip" />
+
+						<LinearLayout
+							android:layout_width="fill_parent"
+							android:layout_height="1dip"
+							android:background="#FF5A5AFF"
+							android:layout_margin="0dip" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<ImageView
+					style="@style/help_content_image_layout"
+					android:src="@drawable/stream_media_player" />
+
+				<TextView
+					style="@style/help_header"
+					android:text="Internet Video." />
+
+				<TextView
+					style="@style/help_content_layout"
+					android:text="Stream Media Player can play video streams using RTSP and HTTP protocols. You can also play stream from the web camera using specified internet links." />
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/pnlToClick1"
+					android:clickable="true">
+
+					<ImageView
+						android:id="@+id/img1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingLeft="10dip"
+						android:src="@drawable/expander_ic_maximized"/>
+
+					<TextView
+						style="@style/help_content_layout"
+						android:paddingTop="5dip"
+						android:paddingLeft="0dip"
+						android:text="Sample:"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/pnlToCollapse1"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:visibility="gone"
+					android:clickable="true">
+
+					<LinearLayout
+						style="@style/help_content_subitem_layout"
+						android:orientation="vertical">
+
+						<TextView
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:text="RTSP stream:" />
+
+						<TextView
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:text="rtsp://[address].3gp" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						style="@style/help_content_subitem_layout"
+						android:orientation="vertical">
+
+						<TextView
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:text="HTTP 3GPP or MPEG-4 video files:" />
+
+						<TextView
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:text="http://[address].3gp" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						style="@style/help_content_subitem_layout"
+						android:orientation="vertical">
+
+						<TextView
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:text="For configured Linksys camera QuickTime or RealPlayer sample:" />
+
+						<TextView
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:text="rtsp://[address].sav" />
+
+					</LinearLayout>
+
+					<ImageView
+						style="@style/help_content_image_layout"
+						android:src="@drawable/internet_stream_media" />
+
+					<TextView
+						style="@style/help_content_layout"
+						android:text="Press start button to view the stream." />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/pnlToClick4"
+					android:clickable="true">
+
+					<ImageView
+						android:id="@+id/img4"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingLeft="10dip"
+						android:src="@drawable/expander_ic_maximized" />
+
+					<TextView
+						style="@style/help_content_layout"
+						android:paddingTop="5dip"
+						android:paddingLeft="0dip"
+						android:text="How to configure VLC stream:" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/pnlToCollapse4"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:visibility="gone"
+					android:clickable="true">
+
+					<LinearLayout
+						style="@style/help_content_subitem_layout"
+						android:orientation="vertical">
+
+						<TextView
+							style="@style/help_content_layout"
+							android:text="To simplify configuration process, we have prepared a slideshow tutorial describing the process of VLC configuration for RTSP streaming. To view this slideshow, you need to:" />
+
+						<LinearLayout
+							style="@style/help_content_subitem_layout"
+							android:orientation="vertical">
+
+							<TextView
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:text="- Install Slide Show Application from the Android Market (it’s free!)" />
+
+							<TextView
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:text="http://market.android.com/search?q=pname:.android.slideshow"
+								android:clickable="true"
+								android:autoLink="web" />
+
+						</LinearLayout>
+
+						<LinearLayout
+							style="@style/help_content_subitem_layout"
+							android:orientation="vertical">
+
+							<TextView
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:text="- Download slideshow file (use 'Gallery' option or link below)" />
+
+							<TextView
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:text="http://www.psa-mobile.com/android/asa/gallery/Howto_setup_VLC_streaming.asadf"
+								android:clickable="true"
+								android:autoLink="web" />
+
+						</LinearLayout>
+
+						<LinearLayout
+							style="@style/help_content_subitem_layout"
+							android:orientation="vertical">
+
+							<TextView
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:text="- Open this file in Slide Show Application" />
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<TextView
+					style="@style/help_header"
+					android:text="Internet Radio." />
+
+				<TextView
+					style="@style/help_content_layout"
+					android:text="Stream Media Player can play audio streams in MP3 from Internet Radio stations and different podcast sources. You can enter desired URL, press Home button and run another application, with the radio playing in background. Icon in notification area will help you to return to the Application." />
+
+				<TextView
+					style="@style/help_header"
+					android:text="JPEG Web Camera." />
+
+				<TextView style="@style/help_content_layout"
+					android:text="Stream Media Player can display pictures from the JPEG web camera using HTTP protocol with changeable Refresh Period." />
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/pnlToClick2"
+					android:clickable="true">
+
+					<ImageView
+						android:id="@+id/img2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingLeft="10dip"
+						android:src="@drawable/expander_ic_maximized" />
+
+					<TextView
+						style="@style/help_content_layout"
+						android:paddingTop="5dip"
+						android:paddingLeft="0dip"
+						android:text="Syntax sample of used format:" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/pnlToCollapse2"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:visibility="gone"
+					android:clickable="true">
+
+					<LinearLayout
+						style="@style/help_content_subitem_layout"
+						android:orientation="vertical">
+
+						<TextView
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:text="http://[address].jpg" />
+
+					</LinearLayout>
+
+					<ImageView
+						style="@style/help_content_image_layout"
+						android:src="@drawable/jpeg_web_camera" />
+
+				</LinearLayout>
+
+				<TextView
+					style="@style/help_header"
+					android:text="Motion-JPEG RTP Web Camera." />
+
+				<TextView
+					style="@style/help_content_layout"
+					android:text="Stream Media Player can play video from the web camera in the Motion-JPEG format. Playing M-JPEG format on RTP protocol." />
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/pnlToClick3"
+					android:clickable="true">
+
+					<ImageView
+						android:id="@+id/img3"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingLeft="10dip"
+						android:src="@drawable/expander_ic_maximized" />
+
+					<TextView
+						style="@style/help_content_layout"
+						android:paddingTop="5dip"
+						android:paddingLeft="0dip"
+						android:text="M-jpeg configuration sample with VLC:" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/pnlToCollapse3"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:visibility="gone"
+					android:clickable="true">
+
+					<TextView
+						style="@style/help_content_layout"
+						android:id="@+id/video_sources_link1"
+						android:text="Check http://www.videolan.org/ for player download."
+						android:clickable="true"
+						android:autoLink="web"
+						android:paddingTop="10dip" />
+
+					<TextView
+						style="@style/help_content_layout"
+						android:paddingTop="5dip"
+						android:textStyle="bold"
+						android:text="Motion-JPEG configuration sample using freeware VLC player:" />
+
+					<LinearLayout
+						style="@style/help_content_subitem_layout"
+						android:orientation="vertical">
+
+						<TextView
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:text="1. Start VLC Media Player on PC;" />
+
+						<TextView
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:text="2. Go to Media->Streaming->Capture Device. By Default Capture mode is set to DirectShow, Video device name is Default or the name of your webcam. Click on the Stream button;" />
+					</LinearLayout>
+
+					<ImageView
+						style="@style/help_content_image_layout"
+						android:src="@drawable/vlc_player" />
+
+					<ImageView
+						style="@style/help_content_image_layout"
+						android:src="@drawable/vlc_player_config1" />
+
+					<LinearLayout
+						style="@style/help_content_subitem_layout"
+						android:orientation="vertical">
+
+						<TextView
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:text="3. Check RTP protocol. Enter IP Address of your mobile phone to the Address field. ( To determine address issue netstat command in phone’s terminal). Default Port is 1234. Select MPEG-TS on Encapsulation tab. Open Video codec tab. Check Video. Select M-JPEG. Press Stream button;" />
+
+					</LinearLayout>
+
+					<ImageView
+						style="@style/help_content_image_layout"
+						android:src="@drawable/vlc_player_config2" />
+
+					<ImageView
+						style="@style/help_content_image_layout"
+						android:src="@drawable/vlc_player_config3" />
+
+					<LinearLayout
+						style="@style/help_content_subitem_layout"
+						android:orientation="vertical">
+
+						<TextView
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:text="4. On your mobile phone select Motion-JPEG and enter 1234 to Port field Press Start." />
+
+					</LinearLayout>
+
+					<ImageView style="@style/help_content_image_layout"
+						android:src="@drawable/motion_jpeg_rtp_web_camera" />
+
+				</LinearLayout>
+
+				<TextView
+					style="@style/help_header"
+					android:text="Local Media files." />
+
+				<TextView
+					style="@style/help_content_layout"
+					android:text="You can play locally stored video in 3gp and mp4 format." />
+
+				<TextView
+					style="@style/help_content_layout"
+					android:id="@+id/video_sources_link2"
+					android:text="Video sources: http://www.zoovision.com/"
+					android:clickable="true"
+					android:autoLink="web"
+					android:paddingTop="10dip" />
+
+
+
+				<LinearLayout
+					style="@style/help_content_layout"
+					android:orientation="vertical"
+					android:gravity="center_horizontal">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingTop="16dip"
+						android:text="@string/copyright1"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/about_psa_inc"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/copyright2"
+						android:textStyle="bold"
+						android:padding="4dip" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/x3/res/layout/help_view.xml -->

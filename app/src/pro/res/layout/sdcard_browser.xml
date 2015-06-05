@@ -30,7 +30,7 @@
 
 	</LinearLayout>
 
-	<com.psa.android.media.SdCardBrowser 
+	<com.simpity.android.media.SdCardBrowser
 		android:id="@+id/sdcard_browser"
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
