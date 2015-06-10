@@ -42,7 +42,7 @@ public class AboutActivity extends Activity {
     	@Override
 		public void onClick(View v) {
 			Intent launcher = new Intent("android.intent.action.VIEW",
-					Uri.parse("http://www.psa-mobile.com/"));
+					Uri.parse("http://www.simpity.by/"));
 	        startActivity(launcher);
 		}
     };
