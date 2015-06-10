@@ -177,7 +177,7 @@
     <string name="allLinks">All Links</string>
     <string formatted="false" name="already_in_playlist">Station \"%s\" already present in playlist \"%s\"</string>
     <string name="always_start_download">Do not show this dialog again, always start download.</string>
-    <string name="app_name">Stream Media Player Pro</string>
+    <string name="app_name">My Best Media Player</string>
     <string name="buffering">Buffering...</string>
     <string name="buffering_time_20">20 sec</string>
     <string name="buffering_time_45">45 sec</string>
@@ -499,12 +499,12 @@
 		<item name="android:layout_height">wrap_content</item>
 		<item name="android:layout_alignParentBottom">true</item>
 	</style>
-    <style name="bottom_psa_logo">
+    <style name="bottom_simpity_logo">
 		<item name="android:layout_width">wrap_content</item>
 		<item name="android:layout_height">wrap_content</item>
 		<!--item name="android:scaleType">center</item-->
 		<item name="android:layout_alignParentRight">true</item>
-		<item name="android:src">@drawable/psa_logo2</item>
+		<item name="android:src">@drawable/simpity_logo2</item>
 		<!--item name="android:src">@drawable/psa_back1</item-->
 	</style>
     <style name="content_land">

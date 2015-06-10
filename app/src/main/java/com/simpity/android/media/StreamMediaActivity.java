@@ -180,7 +180,7 @@ public class StreamMediaActivity extends Activity implements Runnable, BackupLis
 			}
 		});
 
-		((ImageView)findViewById(Res.id.psa_logo)).setOnClickListener(new View.OnClickListener() {
+		((ImageView)findViewById(Res.id.simpity_logo)).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				startActivity(new Intent(StreamMediaActivity.this, AboutActivity.class));

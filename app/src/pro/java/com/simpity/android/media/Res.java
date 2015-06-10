@@ -148,7 +148,7 @@ public final class Res {
 		public static final int pnlToCollapse4					= R.id.pnlToCollapse4;
 		public static final int progress						= R.id.progress;
 		public static final int progressValue					= R.id.progressValue;
-		public static final int psa_logo						= R.id.psa_logo;
+		public static final int simpity_logo						= R.id.simpity_logo;
 		public static final int radioGroup						= R.id.radioGroup;
 		public static final int radio_dialog_cancel_button		= R.id.radio_dialog_cancel_button;
 		public static final int radio_dialog_description_editor	= R.id.radio_dialog_description_editor;

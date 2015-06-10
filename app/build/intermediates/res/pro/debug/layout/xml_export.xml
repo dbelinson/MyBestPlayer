@@ -12,7 +12,7 @@
 		>
 
 		<ImageView
-			style="@style/bottom_psa_logo" />
+			style="@style/bottom_simpity_logo" />
 
 		<LinearLayout
 			android:layout_width="fill_parent"
