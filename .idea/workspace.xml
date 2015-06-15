@@ -5,58 +5,15 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="f26c5ff6-e122-4e7d-a8c7-2bd1a2d9ea99" name="Default" comment="123">
       <change type="DELETED" beforePath="C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\build\intermediates\res\pro\debug\layout-port\main1.xml" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\src\pro\res\drawable\jpegCamera.png" afterPath="$PROJECT_DIR$/app/src/pro/res/drawable/jpegcamera.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetConfiguration.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetConfiguration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraListActivity$JpegBaseListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraListActivity$JpegBaseListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MJpegCameraActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MJpegCameraActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MJpegCameraView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MJpegCameraView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MJpegServer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MJpegServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MediaPlayerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MediaPlayerActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$SurfaceLongClickListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$SurfaceLongClickListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/PlaylistEditor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/PlaylistEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$xml.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/services/RadioNotification.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/services/RadioNotification.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$PlaylistCreator.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$PlaylistCreator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/RadioWidgetService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/RadioWidgetService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/Res$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/Res$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspEditActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspEditActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$RtspBaseListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$RtspBaseListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/ScaleDialog.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/ScaleDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/SdSelectActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/SdSelectActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/ShareLinkDialog.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/ShareLinkDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/utils/VideoGalleryAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/utils/VideoGalleryAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/WaitDialog.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/WaitDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/WaitDialog.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/WaitDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/XmlBrowseActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/XmlBrowseActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/XmlFileSelectActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/XmlFileSelectActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-pro-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-pro-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-pro-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-pro-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/pro/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/pro/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/drawable/jpegcamera.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/drawable/jpegcamera.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-pro-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-pro-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/pro/debug/com/simpity/android/media/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/pro/debug/com/simpity/android/media/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/layout-port/main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/layout-port/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/pro/res/layout-port/main.xml" afterPath="$PROJECT_DIR$/app/src/pro/res/layout-port/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/pro/res/layout-land/main.xml" afterPath="$PROJECT_DIR$/app/src/pro/res/layout-land/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/pro/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/pro/debug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -100,61 +57,192 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout-port/main.xml">
-          <provider selected="true" editor-type-id="android-designer">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.206896">
+              <caret line="184" column="22" selection-start-line="20" selection-start-column="7" selection-end-line="184" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.862069">
-              <caret line="110" column="59" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout-land/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.58161646">
+              <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
               <folding>
-                <element signature="e#1911#1942#0" expanded="true" />
-                <element signature="e#5242#5267#0" expanded="true" />
+                <element signature="e#1359#1390#0" expanded="true" />
+                <element signature="e#2429#2444#0" expanded="true" />
+                <element signature="e#3526#3551#0" expanded="true" />
+                <element signature="e#4695#4722#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="273" column="24" selection-start-line="273" selection-start-column="24" selection-end-line="273" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMediaServiceInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/aidl/pro/debug/com/simpity/android/media/IMediaServiceInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="87" selection-start-line="2" selection-start-column="87" selection-end-line="2" selection-end-column="87" />
+              <folding>
+                <element signature="e#664#665#0" expanded="false" />
+                <element signature="e#706#707#0" expanded="false" />
+                <element signature="e#1323#1324#0" expanded="false" />
+                <element signature="e#1338#1339#0" expanded="false" />
+                <element signature="e#4306#4307#0" expanded="false" />
+                <element signature="e#4326#4327#0" expanded="false" />
+                <element signature="e#4375#4376#0" expanded="false" />
+                <element signature="e#4393#4394#0" expanded="false" />
+                <element signature="e#4444#4445#0" expanded="false" />
+                <element signature="e#4465#4466#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamMediaActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/StreamMediaActivity.java">
+      <file leaf-file-name="ICameraWidgetServiceInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/aidl/pro/debug/com/simpity/android/media/widgets/camera/ICameraWidgetServiceInterface.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="172" column="13" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="13" />
+              <caret line="2" column="87" selection-start-line="2" selection-start-column="87" selection-end-line="2" selection-end-column="87" />
+              <folding>
+                <element signature="e#754#755#0" expanded="false" />
+                <element signature="e#796#797#0" expanded="false" />
+                <element signature="e#1523#1524#0" expanded="false" />
+                <element signature="e#1538#1539#0" expanded="false" />
+                <element signature="e#2575#2576#0" expanded="false" />
+                <element signature="e#2595#2596#0" expanded="false" />
+                <element signature="e#2644#2645#0" expanded="false" />
+                <element signature="e#2662#2663#0" expanded="false" />
+                <element signature="e#2713#2714#0" expanded="false" />
+                <element signature="e#2734#2735#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/AboutActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1331#1555#0" expanded="false" />
+                <element signature="e#1554#1555#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/full/pro/debug/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.0">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout-land/main.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="27" />
+      <file leaf-file-name="R.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/x3/debug/com/simpity/android/media/R.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.537037">
+              <caret line="293" column="41" selection-start-line="293" selection-start-column="38" selection-end-line="293" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/pro/res/values/styles.xml">
+      <file leaf-file-name="PlayerActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/player/PlayerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="42" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Activity.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-19/android.jar!/android/app/Activity.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="833" column="0" selection-start-line="833" selection-start-column="0" selection-end-line="833" selection-end-column="0" />
-              <folding />
+              <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#3755#3761#0" expanded="false" />
+                <element signature="e#5412#5539#0" expanded="false" />
+                <element signature="e#5538#5539#0" expanded="false" />
+                <element signature="e#6320#6423#0" expanded="false" />
+                <element signature="e#6422#6423#0" expanded="false" />
+                <element signature="e#6744#6847#0" expanded="false" />
+                <element signature="e#6846#6847#0" expanded="false" />
+                <element signature="e#12664#12665#0" expanded="false" />
+                <element signature="e#12689#12690#0" expanded="false" />
+                <element signature="e#15335#15515#0" expanded="false" />
+                <element signature="e#15514#15515#0" expanded="false" />
+                <element signature="e#16252#16642#0" expanded="false" />
+                <element signature="e#16389#16627#0" expanded="false" />
+                <element signature="e#16626#16627#0" expanded="false" />
+                <element signature="e#16641#16642#0" expanded="false" />
+                <element signature="e#16735#16880#0" expanded="false" />
+                <element signature="e#16879#16880#0" expanded="false" />
+                <element signature="e#17943#18132#0" expanded="false" />
+                <element signature="e#18131#18132#0" expanded="false" />
+                <element signature="e#18180#18463#0" expanded="false" />
+                <element signature="e#18462#18463#0" expanded="false" />
+                <element signature="e#19134#19314#0" expanded="false" />
+                <element signature="e#19313#19314#0" expanded="false" />
+                <element signature="e#19790#20068#0" expanded="false" />
+                <element signature="e#19947#20057#0" expanded="false" />
+                <element signature="e#20056#20057#0" expanded="false" />
+                <element signature="e#20067#20068#0" expanded="false" />
+                <element signature="e#20559#20709#0" expanded="false" />
+                <element signature="e#20708#20709#0" expanded="false" />
+                <element signature="e#20773#20948#0" expanded="false" />
+                <element signature="e#20947#20948#0" expanded="false" />
+                <element signature="e#23539#23751#0" expanded="false" />
+                <element signature="e#23750#23751#0" expanded="false" />
+                <element signature="e#23842#23934#0" expanded="false" />
+                <element signature="e#23933#23934#0" expanded="false" />
+                <element signature="e#28694#28964#0" expanded="false" />
+                <element signature="e#28963#28964#0" expanded="false" />
+                <element signature="e#29156#29333#0" expanded="false" />
+                <element signature="e#29332#29333#0" expanded="false" />
+                <element signature="e#36131#36132#0" expanded="false" />
+                <element signature="e#36176#36177#0" expanded="false" />
+                <element signature="e#36790#36791#0" expanded="false" />
+                <element signature="e#36836#36837#0" expanded="false" />
+                <element signature="e#39471#39776#0" expanded="false" />
+                <element signature="e#39775#39776#0" expanded="false" />
+                <element signature="e#39899#40326#0" expanded="false" />
+                <element signature="e#40325#40326#0" expanded="false" />
+                <element signature="e#44961#45133#0" expanded="false" />
+                <element signature="e#45132#45133#0" expanded="false" />
+                <element signature="e#45259#45428#0" expanded="false" />
+                <element signature="e#45427#45428#0" expanded="false" />
+                <element signature="e#45555#45723#0" expanded="false" />
+                <element signature="e#45722#45723#0" expanded="false" />
+                <element signature="e#45847#46017#0" expanded="false" />
+                <element signature="e#46016#46017#0" expanded="false" />
+                <element signature="e#46149#46984#0" expanded="false" />
+                <element signature="e#46983#46984#0" expanded="false" />
+                <element signature="e#48095#48096#0" expanded="false" />
+                <element signature="e#48117#48118#0" expanded="false" />
+                <element signature="e#48308#48629#0" expanded="false" />
+                <element signature="e#48628#48629#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1955,10 +2043,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/x3/res/layout/jpeg_camera.xml" />
-        <option value="$PROJECT_DIR$/app/src/x3/res/layout/jpeg_edit_dialog.xml" />
-        <option value="$PROJECT_DIR$/app/src/x3/res/layout/media_payer_view.xml" />
-        <option value="$PROJECT_DIR$/app/src/x3/res/layout/mjpeg_camera_select.xml" />
         <option value="$PROJECT_DIR$/app/src/x3/res/layout/mjpeg_view.xml" />
         <option value="$PROJECT_DIR$/app/src/x3/res/layout/player_view.xml" />
         <option value="$PROJECT_DIR$/app/src/x3/res/layout/radio_edit_dialog.xml" />
@@ -1998,14 +2082,18 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/MediaService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/AboutActivity.java" />
         <option value="$PROJECT_DIR$/app/src/pro/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/pro/java/com/simpity/android/media/Res.java" />
         <option value="$PROJECT_DIR$/app/src/pro/res/layout/xml_browser.xml" />
         <option value="$PROJECT_DIR$/app/src/pro/res/layout/xml_export.xml" />
-        <option value="$PROJECT_DIR$/app/src/pro/res/layout-land/main.xml" />
         <option value="$PROJECT_DIR$/app/src/pro/res/layout-port/main1.xml" />
         <option value="$PROJECT_DIR$/app/src/pro/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/StreamMediaActivity.java" />
         <option value="$PROJECT_DIR$/app/src/pro/res/layout-port/main.xml" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/r/pro/debug/com/simpity/android/media/R.java" />
+        <option value="$PROJECT_DIR$/app/build/intermediates/manifests/full/pro/debug/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/r/x3/debug/com/simpity/android/media/R.java" />
+        <option value="$PROJECT_DIR$/app/src/pro/java/com/simpity/android/media/Res.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/pro/res/layout-land/main.xml" />
       </list>
     </option>
   </component>
@@ -2048,46 +2136,34 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="AndroidView">
+      <pane id="PackagesPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="MyBestPlayer" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="MyBestPlayer" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBestPlayer" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2228,30 +2304,24 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="MyBestPlayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="MyBestPlayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2516,25 +2586,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.4978678" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19" sideWeight="0.42910448" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19" sideWeight="0.41577825" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2553305" sideWeight="0.50130546" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23555556" sideWeight="0.51759064" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23555556" sideWeight="0.52398723" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.4424307" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.4402985" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23555556" sideWeight="0.4824094" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23555556" sideWeight="0.4760128" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23666666" sideWeight="0.5133262" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2553305" sideWeight="0.4986945" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1748401" sideWeight="0.4986945" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2545,7 +2615,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.4936034" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.48720682" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2632,70 +2702,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-19/android.jar!/java/lang/System.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="34" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.36">
-          <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/BaseLinkListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34727272">
-          <caret line="263" column="93" selection-start-line="263" selection-start-column="93" selection-end-line="263" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/services/UpdateService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="298" column="0" selection-start-line="298" selection-start-column="0" selection-end-line="298" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_45/jre/lib/rt.jar!/sun/nio/ch/SocketDispatcher.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33272728">
@@ -2704,73 +2710,73 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/x3/res/layout-port/jpeg_camera_select.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.275862">
           <caret line="336" column="13" selection-start-line="336" selection-start-column="13" selection-end-line="336" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/x3/res/layout-land/jpeg_camera_select.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/x3/res/layout-land/jpeg_camera_select.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.275862">
           <caret line="379" column="13" selection-start-line="379" selection-start-column="13" selection-end-line="379" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/x3/res/layout-port/local_video_select.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/x3/res/layout-port/local_video_select.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.275862">
           <caret line="131" column="13" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/x3/res/layout-port/rtsp_select.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/x3/res/layout-port/rtsp_select.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="333" column="17" selection-start-line="333" selection-start-column="17" selection-end-line="333" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/x3/res/layout-land/rtsp_select.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/x3/res/layout-land/rtsp_select.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="385" column="17" selection-start-line="385" selection-start-column="17" selection-end-line="385" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/x3/res/layout-port/stream_video_select.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/x3/res/layout-port/stream_video_select.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/x3/res/layout-land/stream_video_select.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-19/android.jar!/android/util/Log.class">
@@ -2787,69 +2793,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/MediaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-          <folding>
-            <element signature="e#2644#2645#0" expanded="false" />
-            <element signature="e#2665#2666#0" expanded="false" />
-            <element signature="e#6390#6391#0" expanded="false" />
-            <element signature="e#6419#6420#0" expanded="false" />
-            <element signature="e#8638#8639#0" expanded="false" />
-            <element signature="e#8663#8664#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/x3/res/layout-land/local_video_select.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="138" column="13" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout/media_payer_view.xml">
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/player/HttpProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/donottranslate.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68">
           <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/AboutActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -2897,47 +2854,52 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout/xml_browser.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pro/java/com/simpity/android/media/Res.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="146" column="52" selection-start-line="146" selection-start-column="52" selection-end-line="146" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout/xml_export.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout/xml_export.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/LocalVideoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-19/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="833" column="0" selection-start-line="833" selection-start-column="0" selection-end-line="833" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3387#4070#0" expanded="false" />
+            <element signature="e#4069#4070#0" expanded="false" />
+            <element signature="e#5817#5818#0" expanded="false" />
+            <element signature="e#5859#5860#0" expanded="false" />
+            <element signature="e#5984#5985#0" expanded="false" />
+            <element signature="e#6025#6026#0" expanded="false" />
+            <element signature="e#6147#6148#0" expanded="false" />
+            <element signature="e#6185#6186#0" expanded="false" />
+            <element signature="e#6306#6307#0" expanded="false" />
+            <element signature="e#6347#6348#0" expanded="false" />
+            <element signature="e#8358#8359#0" expanded="false" />
+            <element signature="e#8374#8375#0" expanded="false" />
+            <element signature="e#8500#8501#0" expanded="false" />
+            <element signature="e#8516#8517#0" expanded="false" />
+            <element signature="e#8644#8645#0" expanded="false" />
+            <element signature="e#8660#8661#0" expanded="false" />
+            <element signature="e#8787#8788#0" expanded="false" />
+            <element signature="e#8803#8804#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2961,30 +2923,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pro/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="42" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout-land/main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-19/android.jar!/android/widget/TextView.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2999,22 +2941,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout/download_dialog.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/StreamMediaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="172" column="13" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="13" />
-          <folding />
-        </state>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/pro/res/drawable/jpegcamera.png">
@@ -3027,18 +2961,265 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout-port/main.xml">
-      <provider selected="true" editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/StreamMediaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="172" column="13" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout/media_payer_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.862069">
-          <caret line="110" column="59" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-19/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.792126">
+          <caret line="833" column="0" selection-start-line="833" selection-start-column="0" selection-end-line="833" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pro/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="42" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-19/android.jar!/android/content/Intent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9354331">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/XmlFileSelectActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13333334">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/MediaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <element signature="e#1911#1942#0" expanded="true" />
-            <element signature="e#5242#5267#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/player/HttpProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/player/PlayerLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13333334">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/player/PlayerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3755#3761#0" expanded="false" />
+            <element signature="e#5412#5539#0" expanded="false" />
+            <element signature="e#5538#5539#0" expanded="false" />
+            <element signature="e#6320#6423#0" expanded="false" />
+            <element signature="e#6422#6423#0" expanded="false" />
+            <element signature="e#6744#6847#0" expanded="false" />
+            <element signature="e#6846#6847#0" expanded="false" />
+            <element signature="e#12664#12665#0" expanded="false" />
+            <element signature="e#12689#12690#0" expanded="false" />
+            <element signature="e#15335#15515#0" expanded="false" />
+            <element signature="e#15514#15515#0" expanded="false" />
+            <element signature="e#16252#16642#0" expanded="false" />
+            <element signature="e#16389#16627#0" expanded="false" />
+            <element signature="e#16626#16627#0" expanded="false" />
+            <element signature="e#16641#16642#0" expanded="false" />
+            <element signature="e#16735#16880#0" expanded="false" />
+            <element signature="e#16879#16880#0" expanded="false" />
+            <element signature="e#17943#18132#0" expanded="false" />
+            <element signature="e#18131#18132#0" expanded="false" />
+            <element signature="e#18180#18463#0" expanded="false" />
+            <element signature="e#18462#18463#0" expanded="false" />
+            <element signature="e#19134#19314#0" expanded="false" />
+            <element signature="e#19313#19314#0" expanded="false" />
+            <element signature="e#19790#20068#0" expanded="false" />
+            <element signature="e#19947#20057#0" expanded="false" />
+            <element signature="e#20056#20057#0" expanded="false" />
+            <element signature="e#20067#20068#0" expanded="false" />
+            <element signature="e#20559#20709#0" expanded="false" />
+            <element signature="e#20708#20709#0" expanded="false" />
+            <element signature="e#20773#20948#0" expanded="false" />
+            <element signature="e#20947#20948#0" expanded="false" />
+            <element signature="e#23539#23751#0" expanded="false" />
+            <element signature="e#23750#23751#0" expanded="false" />
+            <element signature="e#23842#23934#0" expanded="false" />
+            <element signature="e#23933#23934#0" expanded="false" />
+            <element signature="e#28694#28964#0" expanded="false" />
+            <element signature="e#28963#28964#0" expanded="false" />
+            <element signature="e#29156#29333#0" expanded="false" />
+            <element signature="e#29332#29333#0" expanded="false" />
+            <element signature="e#36131#36132#0" expanded="false" />
+            <element signature="e#36176#36177#0" expanded="false" />
+            <element signature="e#36790#36791#0" expanded="false" />
+            <element signature="e#36836#36837#0" expanded="false" />
+            <element signature="e#39471#39776#0" expanded="false" />
+            <element signature="e#39775#39776#0" expanded="false" />
+            <element signature="e#39899#40326#0" expanded="false" />
+            <element signature="e#40325#40326#0" expanded="false" />
+            <element signature="e#44961#45133#0" expanded="false" />
+            <element signature="e#45132#45133#0" expanded="false" />
+            <element signature="e#45259#45428#0" expanded="false" />
+            <element signature="e#45427#45428#0" expanded="false" />
+            <element signature="e#45555#45723#0" expanded="false" />
+            <element signature="e#45722#45723#0" expanded="false" />
+            <element signature="e#45847#46017#0" expanded="false" />
+            <element signature="e#46016#46017#0" expanded="false" />
+            <element signature="e#46149#46984#0" expanded="false" />
+            <element signature="e#46983#46984#0" expanded="false" />
+            <element signature="e#48095#48096#0" expanded="false" />
+            <element signature="e#48117#48118#0" expanded="false" />
+            <element signature="e#48308#48629#0" expanded="false" />
+            <element signature="e#48628#48629#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/aidl/pro/debug/com/simpity/android/media/IMediaServiceInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="87" selection-start-line="2" selection-start-column="87" selection-end-line="2" selection-end-column="87" />
+          <folding>
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#1323#1324#0" expanded="false" />
+            <element signature="e#1338#1339#0" expanded="false" />
+            <element signature="e#4306#4307#0" expanded="false" />
+            <element signature="e#4326#4327#0" expanded="false" />
+            <element signature="e#4375#4376#0" expanded="false" />
+            <element signature="e#4393#4394#0" expanded="false" />
+            <element signature="e#4444#4445#0" expanded="false" />
+            <element signature="e#4465#4466#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/storage/BackupRestore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15304348">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/aidl/pro/debug/com/simpity/android/media/widgets/camera/ICameraWidgetServiceInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="87" selection-start-line="2" selection-start-column="87" selection-end-line="2" selection-end-column="87" />
+          <folding>
+            <element signature="e#754#755#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#1523#1524#0" expanded="false" />
+            <element signature="e#1538#1539#0" expanded="false" />
+            <element signature="e#2575#2576#0" expanded="false" />
+            <element signature="e#2595#2596#0" expanded="false" />
+            <element signature="e#2644#2645#0" expanded="false" />
+            <element signature="e#2662#2663#0" expanded="false" />
+            <element signature="e#2713#2714#0" expanded="false" />
+            <element signature="e#2734#2735#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/AboutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1331#1555#0" expanded="false" />
+            <element signature="e#1554#1555#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/full/pro/debug/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pro/java/com/simpity/android/media/Res.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="273" column="24" selection-start-line="273" selection-start-column="24" selection-end-line="273" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/x3/debug/com/simpity/android/media/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.537037">
+          <caret line="293" column="41" selection-start-line="293" selection-start-column="38" selection-end-line="293" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout-port/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.206896">
+          <caret line="184" column="22" selection-start-line="20" selection-start-column="7" selection-end-line="184" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout-land/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58161646">
+          <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding>
+            <element signature="e#1359#1390#0" expanded="true" />
+            <element signature="e#2429#2444#0" expanded="true" />
+            <element signature="e#3526#3551#0" expanded="true" />
+            <element signature="e#4695#4722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>
