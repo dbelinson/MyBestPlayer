@@ -5,281 +5,60 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f26c5ff6-e122-4e7d-a8c7-2bd1a2d9ea99" name="Default" comment="123">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/utils/AndroidVersionHelper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/storage/BackupRestore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/storage/BackupWriter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/utils/BaseListAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/storage/CameraRecord.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetConfiguration$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetConfiguration$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetConfiguration.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetProvider$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetService$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetService$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetService$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetService$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetService$WidgetCameraInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/utils/Command.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/utils/DefaultMenu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/controls/EditTextWithHistory$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/controls/EditTextWithHistory$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/controls/EditTextWithHistory$SavedState.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/controls/EditTextWithHistory$TextChangeListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/controls/EditTextWithHistory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/storage/GroupRecord.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/HttpProxy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/ICameraWidgetServiceInterface$Stub$Proxy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/ICameraWidgetServiceInterface$Stub.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/ICameraWidgetServiceInterface.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/IRadioWidgetServiceInterface$Stub$Proxy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/IRadioWidgetServiceInterface$Stub.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/IRadioWidgetServiceInterface.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/IWebCamRefreshServiceInterface$Stub$Proxy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/IWebCamRefreshServiceInterface$Stub.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/IWebCamRefreshServiceInterface.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraListActivity$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraListActivity$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraListActivity$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraListActivity$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraListActivity$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraListActivity$JpegBaseListAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraListActivity$JpegFavoriteLinksAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraListActivity$JpegHistoryLinksAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraListActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraRecordsManager$JpegUrl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraRecordsManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraView$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraView$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraView$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraView$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraView$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraView$6$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraView$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraView$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegEditActivity$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegEditActivity$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegEditActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/storage/LinkRecord.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/utils/Message.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$10$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$16.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$19.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$21.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$22.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$23.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$24.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$25.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$26.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$27.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$5$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$AspectRatioChangeListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$PlayerKiller.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$SurfaceLongClickListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerLayout$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerLayout$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerLayout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/PlaylistEditor$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/PlaylistEditor$MoveDownListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/PlaylistEditor$MoveUpListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/PlaylistEditor$RemoveListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/PlaylistEditor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$array.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$xml.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RTSPClient$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RTSPClient$ContentTypeA.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RTSPClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/services/RadioNotificationAPI3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/services/RadioNotificationAPI5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/storage/RadioPlayList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$1$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$10$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$16.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$FastTreeDataSource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$Page0Adapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$Page0Items$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$Page0Items$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$Page0Items$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$Page0Items$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$Page0Items$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$Page0Items$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$Page0Items$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$Page0Items.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$PlaylistCreator$AddToExistingPlaylist.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$PlaylistCreator$RestartDialog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$PlaylistCreator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$PlaylistMenu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$PlaylistRemoveYesListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$PlaylistSelector.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$RadioMenu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$RadioRemoveYesListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$RadioSelectRun.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/RadioWidgetProvider$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/RadioWidgetProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/RadioWidgetService$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/RadioWidgetService$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/RadioWidgetService$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/RadioWidgetService$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/RadioWidgetService$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/RadioWidgetService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/storage/RecordFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/Res$arrays.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/Res$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/Res$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/Res$layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/Res$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/Res$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/Res$styleable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/Res$xml.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/Res.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspEditActivity$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspEditActivity$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspEditActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$RtspBaseListAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$RtspFavoritesAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$RtspHistoryAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$invalidateListRunnable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspRecordsManager$RtspUrl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspRecordsManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/controls/SdCardXMLBrowser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/statistic/Session.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/ShareLinkDialog$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/ShareLinkDialog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/statistic/StatCollector.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/statistic/StatSummary.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/storage/Storage$CameraRecordFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/storage/Storage$RadioPlaylistFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/storage/Storage$RadioRecordFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/storage/Storage$VideoRecordFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/storage/Storage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/storage/StorageHelper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/StreamMediaActivity$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/StreamMediaActivity$10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/StreamMediaActivity$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/StreamMediaActivity$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/StreamMediaActivity$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/StreamMediaActivity$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/StreamMediaActivity$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/StreamMediaActivity$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/StreamMediaActivity$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/StreamMediaActivity$9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/StreamMediaActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/StreamVideoActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/utils/Utilities$ToastRun.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/utils/Utilities.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/VersionConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/VideoAspectRatio.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/storage/VideoRecord.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/WebCamRefreshService$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/WebCamRefreshService$CameraInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/WebCamRefreshService$MyAuthenticator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/WebCamRefreshService$RefreshCameraRunnable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/WebCamRefreshService$UpdateListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/WebCamRefreshService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/WhatsNewDlg$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/WhatsNewDlg.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/XmlBrowseActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/XmlFileSelectActivity$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/XmlFileSelectActivity$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/XmlFileSelectActivity$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/XmlFileSelectActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/controls/ZoomImageView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/controls/ZoomedView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/drawable/internetvideo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/pro/res/drawable/internetvideo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/drawable/jpegcamera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/pro/res/drawable/jpegcamera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/drawable/localmediafile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/pro/res/drawable/localmediafile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/drawable/motioncameraweb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/pro/res/drawable/motioncameraweb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/drawable/radio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/pro/res/drawable/radio.png" />
-      <change type="MOVED" beforePath="C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\src\pro\res\layout-port\main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/layout-port/main1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/FourTabActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/FourTabActivity.class" />
+      <change type="DELETED" beforePath="C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\build\intermediates\res\pro\debug\layout-port\main1.xml" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\src\pro\res\drawable\jpegCamera.png" afterPath="$PROJECT_DIR$/app/src/pro/res/drawable/jpegcamera.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetConfiguration.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/camera/CameraWidgetService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraListActivity$JpegBaseListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/camera/JpegCameraListActivity$JpegBaseListAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MJpegCameraActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MJpegCameraActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MJpegCameraView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MJpegCameraView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MJpegServer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MJpegServer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MediaPlayerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/MediaPlayerActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$SurfaceLongClickListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity$SurfaceLongClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/player/PlayerActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/PlaylistEditor.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/PlaylistEditor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$raw.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/services/RadioNotification.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/services/RadioNotification.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$PlaylistCreator.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity$PlaylistCreator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/radio/RadioSelectActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/RadioWidgetService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/widgets/radio/RadioWidgetService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/Res$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/Res$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspEditActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspEditActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$RtspBaseListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity$RtspBaseListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/video/RtspListActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/ScaleDialog.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/ScaleDialog.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/SdSelectActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/SdSelectActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/ShareLinkDialog.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/ShareLinkDialog.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/utils/VideoGalleryAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/utils/VideoGalleryAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/WaitDialog.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/WaitDialog.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/WaitDialog.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/dialogs/WaitDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/XmlBrowseActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/XmlBrowseActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/XmlFileSelectActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/pro/debug/com/simpity/android/media/XmlFileSelectActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-pro-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-pro-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-pro-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-pro-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/pro/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/pro/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/drawable/jpegcamera.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/drawable/jpegcamera.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-pro-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-pro-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/pro/debug/com/simpity/android/media/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/pro/debug/com/simpity/android/media/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/StreamMediaActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/simpity/android/media/StreamMediaActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/layout-port/main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/layout-port/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/pro/res/layout-port/main.xml" afterPath="$PROJECT_DIR$/app/src/pro/res/layout-port/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/pro/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/pro/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/pro/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/pro/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/pro/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyBestPlayer.iws" />
@@ -323,26 +102,16 @@
     <leaf>
       <file leaf-file-name="main.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout-port/main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76703644">
-              <caret line="187" column="17" selection-start-line="187" selection-start-column="17" selection-end-line="187" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="download_dialog.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout/download_dialog.xml">
           <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-3.862069">
+              <caret line="110" column="59" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
+              <folding>
+                <element signature="e#1911#1942#0" expanded="true" />
+                <element signature="e#5242#5267#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2311,40 +2080,8 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBestPlayer" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBestPlayer" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2780,24 +2517,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.4978678" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19" sideWeight="0.43123668" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19" sideWeight="0.42910448" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2553305" sideWeight="0.50130546" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23555556" sideWeight="0.5154584" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23555556" sideWeight="0.51759064" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.4445629" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.4424307" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23555556" sideWeight="0.48454157" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23555556" sideWeight="0.4824094" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23666666" sideWeight="0.5133262" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2553305" sideWeight="0.4986945" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2553305" sideWeight="0.4986945" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2895,13 +2632,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/jniLibs/x86/libhttpproxy.so">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.041904762">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3287,14 +3017,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout-port/main.xml">
-      <provider editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/app/src/pro/res/drawable/jpegcamera.png">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76703644">
-          <caret line="187" column="17" selection-start-line="187" selection-start-column="17" selection-end-line="187" selection-end-column="17" />
-          <folding />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pro/res/drawable/jpeg_web_camera.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pro/res/layout-port/main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.862069">
+          <caret line="110" column="59" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
+          <folding>
+            <element signature="e#1911#1942#0" expanded="true" />
+            <element signature="e#5242#5267#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
