@@ -164,13 +164,13 @@ public class StreamMediaActivity extends Activity implements Runnable, BackupLis
 			}
 		});
 
-		findViewById(Res.id.mjpeg_camera_shape).setOnClickListener(new View.OnClickListener() {
+	/*	findViewById(Res.id.mjpeg_camera_shape).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
 				startActivity(new Intent(StreamMediaActivity.this,
 						MJpegCameraActivity.class));
 			}
-		});
+		});*/
 
 		findViewById(Res.id.local_video_shape).setOnClickListener(new View.OnClickListener() {
 			@Override

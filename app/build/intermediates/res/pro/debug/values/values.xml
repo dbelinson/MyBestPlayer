@@ -624,19 +624,18 @@
 	</style>
     <style name="main_button_icon">
 		<item name="android:layout_width">40dip</item>
-		<item name="android:layout_height">40dip</item>
+		<item name="android:layout_height">50dip</item>
 		<item name="android:paddingLeft">5dip</item>
-
 	</style>
     <style name="main_button_layout">
 		<item name="android:layout_width">fill_parent</item>
 		<item name="android:layout_height">wrap_content</item>
 	</style>
     <style name="main_button_linear_lh">
-		<item name="android:orientation">horizontal</item>
+		<item name="android:orientation">vertical</item>
 		<item name="android:layout_width">fill_parent</item>
-		<item name="android:layout_height">wrap_content</item>
-		<item name="android:padding">8dip</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:padding">12dip</item>
 		<item name="android:gravity">center_vertical</item>
 	</style>
     <style name="main_button_linear_lv">
@@ -647,16 +646,17 @@
 	</style>
     <style name="main_button_shape">
 		<item name="android:layout_width">fill_parent</item>
-		<item name="android:layout_height">60dip</item>
+		<item name="android:layout_height">wrap_content</item>
 		<!--<item name="android:src">@drawable/main_button_shape</item>
 		<item name="android:focusable">true</item>
+
 		<item name="android:clickable">true</item>
 		item name="android:focusableInTouchMode">true</item-->
 	</style>
     <style name="main_button_title">
-		<item name="android:layout_width">wrap_content</item>
-		<item name="android:layout_height">wrap_content</item>
-		<item name="android:paddingLeft">12dip</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:paddingLeft">1dip</item>
 		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
 		<!--item name="android:textStyle">bold</item-->
 		<item name="android:textColor">#000</item>
