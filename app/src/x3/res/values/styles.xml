@@ -31,12 +31,12 @@
 
 	<!-- Main Activity Sync Style -->
 
-	<style name="bottom_psa_logo">
+	<style name="bottom_simpity_logo">
 		<item name="android:layout_width">wrap_content</item>
 		<item name="android:layout_height">wrap_content</item>
 		<!--item name="android:scaleType">center</item-->
 		<item name="android:layout_alignParentRight">true</item>
-		<item name="android:src">@drawable/psa_logo2</item>
+		<item name="android:src">@drawable/simpity_logo2</item>
 		<!--item name="android:src">@drawable/psa_back1</item-->
 	</style>
 

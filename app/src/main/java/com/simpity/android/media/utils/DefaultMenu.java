@@ -20,7 +20,7 @@ public final class DefaultMenu {
 		item.setIcon(Res.drawable.icon_help);
 
 		item = menu.add(Menu.NONE, Command.ABOUT, Menu.NONE, Res.string.about);
-		item.setIcon(Res.drawable.icon_psa);
+		item.setIcon(Res.drawable.icon_simpity);
 		
 		item = menu.add(Menu.NONE, Command.SETTINGS, Menu.NONE, Res.string.settings);
 		item.setIcon(Res.drawable.settings);

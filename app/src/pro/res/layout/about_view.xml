@@ -8,16 +8,16 @@
 	>
 
 	<ImageView
-		android:id="@+id/about_psa_logo"
+		android:id="@+id/about_simpity_logo"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
-		android:src="@drawable/psa_logo"
+		android:src="@drawable/simpity_logo"
 		/>
 
 	<ScrollView
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
-		android:layout_below="@id/about_psa_logo"
+		android:layout_below="@id/about_simpity_logo"
 		android:layout_alignParentBottom="true"
 		android:gravity="center_vertical|center"
 		>
@@ -54,7 +54,7 @@
 				android:gravity="center_horizontal"/>
 	
 			<TextView
-				android:id="@+id/about_psa_inc"
+				android:id="@+id/about_simpity_inc"
 				android:layout_width="fill_parent"
 				android:layout_height="wrap_content"
 				android:text="@string/copyright2"
@@ -63,10 +63,10 @@
 				android:gravity="center_horizontal"/>
 	
 			<TextView
-				android:id="@+id/about_psa_link"
+				android:id="@+id/about_simpity_link"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:text="http://www.psa-mobile.com"
+				android:text="http://www.simpity.by"
 				android:clickable="true"
 				android:autoLink="web"
 				android:gravity="center_horizontal"

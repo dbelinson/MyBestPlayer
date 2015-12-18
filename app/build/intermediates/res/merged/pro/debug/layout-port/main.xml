@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@android:color/background_dark">
+
+	<ImageView
+		android:id="@+id/simpity_logo"
+		android:layout_alignParentBottom="true"
+		style="@style/bottom_simpity_logo" />
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+        android:fillViewport="false"
+       >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <TableRow >
+
+                <RelativeLayout
+                    android:id="@+id/rtsp_video_button"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent" >
+
+                    <Button
+                        android:id="@+id/rtsp_video_shape"
+                        android:layout_height="140dp"
+                        android:layout_width="191dp"
+                        android:layout_column="1"
+                        android:background=
+                            "@android:color/background_dark"/>
+
+                    <LinearLayout
+                        style="@style/main_button_linear_lh"
+                        android:layout_alignParentLeft="false"
+                        android:layout_alignParentBottom="false">
+
+                        <ImageView
+                            android:src="@drawable/internetvideo"
+                            style="@style/main_button_icon"
+                            android:layout_width="fill_parent"
+                            android:layout_column="1"/>
+
+                        <TextView
+                            style="@style/main_button_title"
+                            android:text="@string/internet_stream_media"
+                            android:layout_height="42dp"
+                            android:layout_column="1"
+                            android:layout_gravity="center"
+                            android:textColor="@android:color/white"
+                            android:paddingTop="12dp"
+                            android:paddingLeft="27dp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/radio_button"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent">
+
+                    <Button
+                        android:id="@+id/radio_shape"
+                        android:layout_height="140dp"
+                        android:layout_width="191dp"
+                        android:layout_column="2"
+                        android:background="@android:color/background_dark"
+                         />
+
+                    <LinearLayout
+                        style="@style/main_button_linear_lh"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                       >
+
+                        <ImageView
+                            android:src="@drawable/radio"
+                            style="@style/main_button_icon"
+                            android:layout_width="fill_parent"
+                            android:layout_column="2"/>
+
+                        <TextView
+                            style="@style/main_button_title"
+                            android:text="@string/radio"
+                            android:layout_height="42dp"
+                            android:layout_column="2"
+                            android:layout_gravity="center"
+                            android:textColor="@android:color/white"
+                            android:paddingTop="12dp"
+                            android:paddingLeft="27dp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow>
+                <RelativeLayout
+                    android:id="@+id/jpeg_camera_button"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent" >
+
+                    <Button
+                        android:id="@+id/jpeg_camera_shape"
+                        android:layout_height="140dp"
+                        android:layout_width="191dp"
+                        android:layout_column="1"
+                        android:background="@android:color/background_dark"
+                        />
+
+                    <LinearLayout
+                        style="@style/main_button_linear_lh"
+                        android:layout_alignParentLeft="false"
+                        android:layout_alignParentBottom="false">
+
+                        <ImageView
+                            android:src="@drawable/jpegcamera"
+                            style="@style/main_button_icon"
+                            android:layout_width="fill_parent"
+                            android:layout_column="1"/>
+
+                        <TextView
+                            style="@style/main_button_title"
+                            android:text="@string/jpeg_web_camera"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:layout_gravity="center"
+                            android:textColor="@android:color/white"
+                            android:paddingTop="12dp"
+                            android:paddingLeft="27dp"
+                            android:layout_width="134dp" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/local_video_button"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent" >
+
+                    <Button
+                        android:id="@+id/local_video_shape"
+                        android:layout_height="140dp"
+                        android:layout_width="191dp"
+                        android:layout_column="2"
+                        android:background="@android:color/background_dark"
+                        />
+
+                    <LinearLayout
+                        style="@style/main_button_linear_lh"
+                        android:layout_alignParentLeft="false"
+                        android:layout_column="2"
+                        >
+
+                        <ImageView
+                            android:src="@drawable/localmediafile"
+                            style="@style/main_button_icon"
+                            android:layout_width="fill_parent"
+                            android:layout_column="2"
+                            />
+
+                        <TextView
+                            style="@style/main_button_title"
+                            android:layout_height="match_parent"
+                            android:text="@string/local_media_files"
+                            android:layout_gravity="center"
+                            android:textColor="@android:color/white"
+                            android:paddingTop="12dp"
+                            android:paddingLeft="27dp"
+                            android:layout_width="134dp"
+                            android:layout_column="2"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+
+	</ScrollView>
+
+
+
+</RelativeLayout>
+
+<!-- From: file:/C:/Users/dbelinson/AndroidStudioProjects/MyBestPlayer/app/src/pro/res/layout-port/main.xml -->

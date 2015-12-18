@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\src\main\assets"/></dataSet><dataSet config="x3"><source path="C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\src\x3\assets"/></dataSet><dataSet config="release"><source path="C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\src\release\assets"/></dataSet><dataSet config="x3Release"><source path="C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\src\x3Release\assets"/></dataSet></merger>

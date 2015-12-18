@@ -50,7 +50,7 @@ public class MediaService extends Service {
 		super.onCreate();
 
 		//mUpdateService = new UpdateService(this);
-		//mRadioService = new RadioService(this);
+		mRadioService = new RadioService(this);
 		mTestLinksService = new TestLinksService(this);
 		mDebuggable = Utilities.isDebuggable(this);
 	}

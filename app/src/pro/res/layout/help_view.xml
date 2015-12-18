@@ -22,7 +22,7 @@
 				android:id="@+id/psa_logo"
 				android:layout_width="fill_parent"
 				android:layout_height="wrap_content"
-				android:src="@drawable/psa_logo" />
+				android:src="@drawable/simpity_logo" />
 
 			<LinearLayout
 				android:orientation="vertical"

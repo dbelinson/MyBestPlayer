@@ -105,7 +105,7 @@ public class StreamMediaActivity extends Activity implements Runnable, BackupLis
 	@Override
 	public void run() {
 		
-		SharedPreferences preferences = getPreferences(Activity.MODE_PRIVATE);
+		/*SharedPreferences preferences = getPreferences(Activity.MODE_PRIVATE);
 		int current_appl_code = 0;
 		int appl_version_code = preferences.getInt(APPLICATION_VERSION_CODE, 0);
 		try {
@@ -142,9 +142,10 @@ public class StreamMediaActivity extends Activity implements Runnable, BackupLis
 		} else {
 			
 			BackupWriter.backupBySchedule(this);
-		}
+		}*/
+		StatCollector.collectAppLaunchCount(this);
 	}
-	
+
     //--------------------------------------------------------------------------
     private void initListeners() {
     	

@@ -20,9 +20,9 @@ public final class Res {
 		public static final int motion_jpeg_rtp_web_camera	= R.drawable.motion_jpeg_rtp_web_camera;
 		public static final int pause						= R.drawable.pause;
 		public static final int play						= R.drawable.play;
-		public static final int psa_back1					= R.drawable.psa_back1;
-		public static final int psa_logo					= R.drawable.psa_logo;
-		public static final int psa_logo2					= R.drawable.psa_logo2;
+		public static final int simpity_back1					= R.drawable.simpity_back1;
+		public static final int simpity_logo					= R.drawable.simpity_logo;
+		public static final int simpity_logo2					= R.drawable.simpity_logo2;
 		public static final int search						= R.drawable.search;
 		public static final int stop						= R.drawable.stop;
 		public static final int stream_media_player			= R.drawable.stream_media_player;
@@ -40,7 +40,7 @@ public final class Res {
 		public static final int icon_jpeg					= R.drawable.icon_jpeg;
 		public static final int icon_mjpeg					= R.drawable.icon_mjpeg;
 		public static final int icon_play					= R.drawable.icon_play;
-		public static final int icon_psa					= R.drawable.icon_psa;
+		public static final int icon_simpity				= R.drawable.icon_simpity;
 		public static final int icon_radio					= R.drawable.icon_radio;
 		public static final int icon_up_folder				= R.drawable.icon_up_folder;
 		public static final int icon_video					= R.drawable.icon_video;
@@ -89,9 +89,9 @@ public final class Res {
 		public static final int NotificationMessage				= R.id.NotificationMessage;
 		public static final int NotificationTitle				= R.id.NotificationTitle;
 		public static final int ScrollView01					= R.id.ScrollView01;
-		public static final int about_psa_inc					= R.id.about_psa_inc;
-		public static final int about_psa_link					= R.id.about_psa_link;
-		public static final int about_psa_logo					= R.id.about_psa_logo;
+		public static final int about_simpity_inc					= R.id.about_simpity_inc;
+		public static final int about_simpity_link					= R.id.about_simpity_link;
+		public static final int about_simpity_logo					= R.id.about_simpity_logo;
 		//public static final int ad								= R.id.ad;
 		public static final int five_to_four					= R.id.five_to_four;
 		public static final int four_to_tree					= R.id.four_to_tree;
@@ -150,7 +150,7 @@ public final class Res {
 		public static final int pnlToCollapse4					= R.id.pnlToCollapse4;
 		public static final int progress						= R.id.progress;
 		public static final int progressValue					= R.id.progressValue;
-		public static final int psa_logo						= R.id.psa_logo;
+		public static final int simpity_logo					= R.id.simpity_logo;
 		public static final int radioGroup						= R.id.radioGroup;
 		public static final int radio_dialog_cancel_button		= R.id.radio_dialog_cancel_button;
 		public static final int radio_dialog_description_editor	= R.id.radio_dialog_description_editor;
@@ -181,7 +181,7 @@ public final class Res {
 
 		public static final int rtsp_video_shape				= R.id.rtsp_video_shape;
 		public static final int jpeg_camera_shape				= R.id.jpeg_camera_shape;
-		public static final int mjpeg_camera_shape				= R.id.mjpeg_camera_shape;
+		//public static final int mjpeg_camera_shape				= R.id.mjpeg_camera_shape;
 		public static final int local_video_shape				= R.id.local_video_shape;
 		public static final int radio_shape						= R.id.radio_shape;
 		public static final int DownloadMessage					= R.id.DownloadMessage;

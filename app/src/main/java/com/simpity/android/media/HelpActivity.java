@@ -55,7 +55,7 @@ public class HelpActivity extends Activity {
 		findViewById(Res.id.supported_formats_link).setOnTouchListener(mTouchListener);
 		findViewById(Res.id.supported_formats_link).setOnClickListener(linkClickListener);
 
-		//findViewById(Res.id.about_psa_inc).setOnClickListener(linkClickListener);
+		findViewById(Res.id.about_simpity_inc).setOnClickListener(linkClickListener);
 		//findViewById(Res.id.testPanel).setOnClickListener(linkClickListener);
 		findViewById(Res.id.pnlToClick1).setOnClickListener(linkClickListener1);
 		findViewById(Res.id.pnlToClick2).setOnClickListener(linkClickListener2);

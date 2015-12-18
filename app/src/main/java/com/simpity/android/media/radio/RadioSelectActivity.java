@@ -53,6 +53,7 @@ import com.simpity.android.media.controls.fasttree.FastTree;
 import com.simpity.android.media.controls.fasttree.FastTreeItem;
 import com.simpity.android.media.controls.fasttree.FastTreeListener;
 import com.simpity.android.media.dialogs.ShareLinkDialog;
+import com.simpity.android.media.player.HttpProxy;
 import com.simpity.android.media.services.UpdateService;
 import com.simpity.android.media.storage.GroupRecord;
 import com.simpity.android.media.storage.PlayList;
@@ -65,6 +66,7 @@ import com.simpity.android.media.utils.Command;
 import com.simpity.android.media.utils.DefaultMenu;
 import com.simpity.android.media.utils.LinkParser;
 import com.simpity.android.media.utils.Utilities;
+
 
 public class RadioSelectActivity extends Activity implements
 		RecordsManager.OnListChangedListener, EditTextWithHistory.TextChangeListener {
@@ -1332,10 +1334,13 @@ public class RadioSelectActivity extends Activity implements
 		
 		if (mServiceInterface != null) {
 			try {
+				//new HttpProxy().init(record);
 				mServiceInterface.startRadio(record.getId());
 			} catch (RemoteException e) {
 				e.printStackTrace();
 				return;
+			}catch (Exception e){
+
 			}
 		} else {
 			return;

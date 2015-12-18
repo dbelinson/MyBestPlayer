@@ -1,5 +1,0 @@
-C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\build\intermediates\classes\x3\debug
-C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\build\intermediates\pre-dexed\x3\debug\com.simpity.android.additional-d06a06fb187ce71ec395a458e0d12d40c610ffd3.jar
-C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\build\intermediates\pre-dexed\x3\debug\com.simpity.android.protocol-9860457e0430b1cef73041cc3fbfcdf22f9aa807.jar
-C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\build\intermediates\pre-dexed\x3\debug\avro-1.3.3-0b4a0e7f6e7d393b88dccec98cdaf8b99db32767.jar
-C:\Users\dbelinson\AndroidStudioProjects\MyBestPlayer\app\build\intermediates\pre-dexed\x3\debug\GoogleAdMobAdsSdk-6.4.1-de6884f65e607523d230550c90537cc89bff7f79.jar

@@ -34,8 +34,8 @@ public class AboutActivity extends Activity {
 		}
 		
 		((TextView)findViewById(Res.id.version)).setText(version);
-		findViewById(Res.id.about_psa_link).setOnClickListener(linkClickListener);
-		findViewById(Res.id.about_psa_inc).setOnClickListener(linkClickListener);
+		findViewById(Res.id.about_simpity_link).setOnClickListener(linkClickListener);
+		findViewById(Res.id.about_simpity_inc).setOnClickListener(linkClickListener);
     }
 
     View.OnClickListener linkClickListener = new View.OnClickListener() {
